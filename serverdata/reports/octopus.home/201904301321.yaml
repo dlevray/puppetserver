@@ -1,0 +1,669 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: octopus.home
+time: '2019-04-30T15:21:09.070065890+02:00'
+configuration_version: 1556630472
+transaction_uuid: 79385f9e-c85e-473c-bfc8-d01a76698ee7
+report_format: 10
+puppet_version: 6.4.1
+status: changed
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: tst
+logs:
+- level: info
+  message: Using configured environment 'tst'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:09.186887618+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving pluginfacts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:09.187341236+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving plugin
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:09.245106212+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving locales
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:10.010728142+02:00'
+  file:
+  line:
+- level: info
+  message: Loading facts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:10.074643846+02:00'
+  file:
+  line:
+- level: info
+  message: Caching catalog for octopus.home
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:13.504462760+02:00'
+  file:
+  line:
+- level: info
+  message: Applying configuration version '1556630472'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:13.597728419+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /etc/sudoers\t2019-04-30 15:02:45.035372851 +0200\n+++ /tmp/puppet-file20190430-5303-1bxbhca\t\
+    2019-04-30 15:21:13.788520210 +0200\n@@ -32,7 +32,7 @@\n # Cmnd_Alias SOFTWARE\
+    \ = /bin/rpm, /usr/bin/up2date, /usr/bin/yum\n \n ## Services\n-# Cmnd_Alias SERVICES\
+    \ = /sbin/service, /sbin/chkconfig\n+# Cmnd_Alias SERVICES = /sbin/service, /sbin/chkconfig,\
+    \ /usr/bin/systemctl start, /usr/bin/systemctl stop, /usr/bin/systemctl reload,\
+    \ /usr/bin/systemctl restart, /usr/bin/systemctl status, /usr/bin/systemctl enable,\
+    \ /usr/bin/systemctl disable\n \n ## Updating the locate database\n # Cmnd_Alias\
+    \ LOCATE = /usr/bin/updatedb\n@@ -72,6 +72,7 @@\n Defaults    env_keep += \"LC_MONETARY\
+    \ LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE\"\n Defaults    env_keep += \"LC_TIME\
+    \ LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY\"\n \n+\n #\n # Adding HOME\
+    \ to env_keep may enable a user to run unrestricted\n # commands via sudo.\n@@\
+    \ -109,5 +110,5 @@\n ## Allows members of the users group to shutdown this system\n\
+    \ # %users  localhost=/sbin/shutdown -h now\n \n-## Read drop-in files\n+## Read\
+    \ drop-in files from /etc/sudoers.d (the # here does not mean a comment)\n #includedir\
+    \ /etc/sudoers.d\n"
+  source: "/Stage[main]/Sudo/File[/etc/sudoers]/content"
+  tags:
+  - notice
+  - file
+  - class
+  - sudo
+  - content
+  time: '2019-04-30T15:21:13.794211359+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+  line: 169
+- level: info
+  message: Computing checksum on file /etc/sudoers
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:21:13.795234988+02:00'
+  file:
+  line:
+- level: info
+  message: Filebucketed /etc/sudoers to puppet with sum 4a76b70b866cee4d5bd5f354092a9d63
+  source: "/Stage[main]/Sudo/File[/etc/sudoers]"
+  tags:
+  - info
+  - file
+  - class
+  - sudo
+  time: '2019-04-30T15:21:13.812095948+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+  line: 169
+- level: notice
+  message: content changed '{md5}4a76b70b866cee4d5bd5f354092a9d63' to '{md5}5cb7f6f75e524ebbe6cec66712819aaf'
+  source: "/Stage[main]/Sudo/File[/etc/sudoers]/content"
+  tags:
+  - notice
+  - file
+  - class
+  - sudo
+  time: '2019-04-30T15:21:13.818332811+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+  line: 169
+- level: notice
+  message: created
+  source: "/Stage[main]/Sudo/Sudo::Conf[usertst]/File[10_usertst]/ensure"
+  tags:
+  - notice
+  - file
+  - 10_usertst
+  - sudo::conf
+  - sudo
+  - conf
+  - usertst
+  - class
+  time: '2019-04-30T15:21:13.825209501+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 119
+- level: info
+  message: Scheduling refresh of Exec[sudo-syntax-check for file /etc/sudoers.d/10_usertst]
+  source: "/Stage[main]/Sudo/Sudo::Conf[usertst]/File[10_usertst]"
+  tags:
+  - info
+  - file
+  - 10_usertst
+  - sudo::conf
+  - sudo
+  - conf
+  - usertst
+  - class
+  time: '2019-04-30T15:21:13.825634442+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 119
+- level: notice
+  message: Triggered 'refresh' from 1 event
+  source: "/Stage[main]/Sudo/Sudo::Conf[usertst]/Exec[sudo-syntax-check for file /etc/sudoers.d/10_usertst]"
+  tags:
+  - notice
+  - exec
+  - sudo::conf
+  - sudo
+  - conf
+  - usertst
+  - class
+  time: '2019-04-30T15:21:13.834184283+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 132
+- level: notice
+  message: Applied catalog in 0.25 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-04-30T15:21:13.844050202+02:00'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 14
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 1
+    - - changed
+      - Changed
+      - 3
+    - - out_of_sync
+      - Out of sync
+      - 3
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - anchor
+      - Anchor
+      - 0.000134064
+    - - package
+      - Package
+      - 0.000268052
+    - - file
+      - File
+      - 0.036396978999999996
+    - - exec
+      - Exec
+      - 0.000240099
+    - - schedule
+      - Schedule
+      - 0.00034947
+    - - filebucket
+      - Filebucket
+      - 7.7664e-05
+    - - node_retrieval
+      - Node retrieval
+      - 0.11256811500061303
+    - - plugin_sync
+      - Plugin sync
+      - 0.8757477719991584
+    - - fact_generation
+      - Fact generation
+      - 1.034367647000181
+    - - convert_catalog
+      - Convert catalog
+      - 0.03238079199945787
+    - - config_retrieval
+      - Config retrieval
+      - 2.453286712996487
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.24214680399745703
+    - - catalog_application
+      - Catalog application
+      - 0.25062892799905967
+    - - total
+      - Total
+      - 4.770056102
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 3
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 3
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 3
+resource_statuses:
+  Anchor[sudo::begin]:
+    title: sudo::begin
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 203
+    resource: Anchor[sudo::begin]
+    resource_type: Anchor
+    provider_used:
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Anchor[sudo::begin]
+    evaluation_time: 5.1341e-05
+    tags:
+    - anchor
+    - sudo::begin
+    - sudo
+    - begin
+    - class
+    time: '2019-04-30T15:21:13.601835214+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Package[sudo]:
+    title: sudo
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/package.pp"
+    line: 77
+    resource: Package[sudo]
+    resource_type: Package
+    provider_used: yum
+    containment_path:
+    - Stage[main]
+    - Sudo::Package
+    - Package[sudo]
+    evaluation_time: 0.000268052
+    tags:
+    - package
+    - sudo
+    - class
+    - sudo::package
+    time: '2019-04-30T15:21:13.787704363+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/etc/sudoers]:
+    title: "/etc/sudoers"
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 169
+    resource: File[/etc/sudoers]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - File[/etc/sudoers]
+    evaluation_time: 0.031678144
+    tags:
+    - file
+    - class
+    - sudo
+    time: '2019-04-30T15:21:13.788267235+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property: content
+      previous_value: "{md5}4a76b70b866cee4d5bd5f354092a9d63"
+      desired_value: e21kNX01Y2I3ZjZmNzVlNTI0ZWJiZTZjZWM2NjcxMjgxOWFhZg==
+      historical_value:
+      message: content changed '{md5}4a76b70b866cee4d5bd5f354092a9d63' to '{md5}5cb7f6f75e524ebbe6cec66712819aaf'
+      name: content_changed
+      status: success
+      time: '2019-04-30T15:21:13.795004799+02:00'
+      redacted:
+      corrective_change: false
+    corrective_change: false
+  File[/etc/sudoers.d]:
+    title: "/etc/sudoers.d"
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 178
+    resource: File[/etc/sudoers.d]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - File[/etc/sudoers.d]
+    evaluation_time: 0.001868799
+    tags:
+    - file
+    - class
+    - sudo
+    time: '2019-04-30T15:21:13.820403984+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Anchor[sudo::end]:
+    title: sudo::end
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 205
+    resource: Anchor[sudo::end]
+    resource_type: Anchor
+    provider_used:
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Anchor[sudo::end]
+    evaluation_time: 8.2723e-05
+    tags:
+    - anchor
+    - sudo::end
+    - sudo
+    - end
+    - class
+    time: '2019-04-30T15:21:13.822412149+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[10_usertst]:
+    title: 10_usertst
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 119
+    resource: File[10_usertst]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Sudo::Conf[usertst]
+    - File[10_usertst]
+    evaluation_time: 0.002850036
+    tags:
+    - file
+    - 10_usertst
+    - sudo::conf
+    - sudo
+    - conf
+    - usertst
+    - class
+    time: '2019-04-30T15:21:13.822617089+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property: ensure
+      previous_value: absent
+      desired_value: present
+      historical_value:
+      message: created
+      name: file_created
+      status: success
+      time: '2019-04-30T15:21:13.822820173+02:00'
+      redacted:
+      corrective_change: false
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_usertst]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_usertst
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 132
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_usertst]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Sudo::Conf[usertst]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_usertst]
+    evaluation_time: 0.000240099
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - usertst
+    - class
+    time: '2019-04-30T15:21:13.826013314+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property:
+      previous_value:
+      desired_value:
+      historical_value:
+      message: Triggered 'refresh' from 1 event
+      name: refresh
+      status: success
+      time: '2019-04-30T15:21:13.834422147+02:00'
+      redacted: false
+      corrective_change: false
+    corrective_change: false
+  Schedule[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 9.2989e-05
+    tags:
+    - schedule
+    - puppet
+    time: '2019-04-30T15:21:13.835481008+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file:
+    line:
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 6.3159e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-04-30T15:21:13.835627708+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file:
+    line:
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 8.9622e-05
+    tags:
+    - schedule
+    - daily
+    time: '2019-04-30T15:21:13.835768902+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file:
+    line:
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 3.4553e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-04-30T15:21:13.835966548+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file:
+    line:
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 3.3398e-05
+    tags:
+    - schedule
+    - monthly
+    time: '2019-04-30T15:21:13.836125264+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file:
+    line:
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 3.5749e-05
+    tags:
+    - schedule
+    - never
+    time: '2019-04-30T15:21:13.836289512+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used:
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 7.7664e-05
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-04-30T15:21:13.836390604+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: caa2c10d-0432-4a1f-9dcd-d4902bc48b4c
+cached_catalog_status: not_used

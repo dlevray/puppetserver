@@ -1,0 +1,14 @@
+version: 5
+#Hiera utilise trois couhe dans cet ordre: Global, environment, module
+#Chaque couche a sa propre hiérarchie et est concaténée en une super-hiérarchie avant de lancer une recherche.
+#Hiera recherche chaque source de données dans la hiérarchie de la couche globale avant de vérifier toute source de la couche environnement.
+
+#Fichier Global: Fichier $confdir/hiera.yaml -peut être modifié avec le paramètre hiera_config de Pup. Comme il passe avant la couche d’environnement, il est utile pour les remplacements temporaires
+# Eviter le Global, Toutes vos données normales doivent vivre sur la couche environnement.
+
+defaults:
+  datadir: hieradata
+  data_hash: yaml_data
+hierarchy:
+  - name: "Common data"
+    path: "common.yaml"

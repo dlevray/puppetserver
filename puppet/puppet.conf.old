@@ -1,0 +1,90 @@
+[main]
+# Si disable_per_environment_manifest est défini sur true, la valeur default_manifest doit être un chemin absolu.
+disable_per_environment_manifest = true
+default_manifest = /etc/puppetlabs/code/manifests
+environmentpath  = $codedir/environments
+basemodulepath   = $codedir/modules
+# Combien de temps le server Puppet doit recharger le cache les données d'un environement ( 0 = desactive / unlimited = a chaque fois)
+environment_timeout = 0
+#user = puppet
+#group = puppet
+
+
+# Synchroniser les plugins/libs sur vos clients Puppet:
+#pluginsync    = true
+#pluginsource  = puppet://$server/plugins
+dns_alt_names = puppetserver,puppetmaster,puppet
+privatekeydir = $ssldir/private_keys { group = service }
+hostprivkey   = $privatekeydir/$certname.pem { mode = 640 }
+hiera_config  = $confdir/hiera.yaml
+autosign      = $confdir/autosign.conf { mode = 664 }
+show_diff     = false
+
+
+[master]
+confdir  = /etc/puppetlabs/puppet
+vardir   = /opt/puppetlabs/server/data/puppetserver
+ssldir   = $vardir/ssl
+factpath = $vardir/lib/facter
+logdir   = /var/log/puppetlabs/puppetserver
+rundir   = /var/run/puppetlabs/puppetserver
+pidfile  = /var/run/puppetlabs/puppetserver/puppetserver.pid
+codedir  = /etc/puppetlabs/code
+autosign = true
+
+# Puppet 3.0.x requires this in both [main] and [master] - harmless on agents
+autosign = $confdir/autosign.conf { mode = 664 }
+autosign = true
+
+# fqdn du Puppet Master.ou VIP Cluster
+certname = puppetserver
+ca       = true
+parser   = current
+strict_variables = false
+
+## Pour stocker les facts en base
+#facts_terminus   = inventory_active_record
+
+# Les rapports Puppet
+# Ajouter http et decommentez la ligne reporturl pour utiliser le dashboard Puppet
+#reports           = log,store,puppetdb,foreman,logstash
+reports   = puppetdb,foreman
+reportdir = /var/lib/puppet/reports
+#reporturl = https://localhost:3000/reports/upload
+
+
+# Utilisation d'un script External/Node ENC:
+external_nodes = /etc/puppetlabs/puppet/node.rb
+node_terminus  = exec
+
+
+#PUPPETDB (/etc/puppetlabs/puppet/puppetdb.conf;/etc/puppetlabs/puppet/routes.yaml)
+storeconfigs = true
+storeconfigs_backend = puppetdb
+thin_storeconfigs  = false
+async_storeconfigs = false
+report_server = puppetdb
+report_port   = 8140
+
+#always_cache_features = true
+##config_version   = permet de spécifier un config_version pour tous les environnement
+
+
+
+[agent]
+classfile         = $vardir/classes.txt
+localconfig       = $vardir/localconfig
+default_schedules = false
+report            = true
+graph             = true
+pluginsync        = true
+masterport        = 8140
+environment       = production
+server            = puppetserver
+splay             = false
+splaylimit        = 1800
+runinterval       = 1800
+noop              = false
+configtimeout     = 120
+usecacheonfailure = true
+listen            = false

@@ -1,0 +1,7 @@
+---
+#classes:
+# - sudo
+
+#sudo::configs:
+#   'usercentral':
+#        'ensure'    : 'present'

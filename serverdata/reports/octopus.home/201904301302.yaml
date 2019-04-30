@@ -1,0 +1,5105 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: octopus.home
+time: '2019-04-30T15:02:37.180046847+02:00'
+configuration_version: 1556629363
+transaction_uuid: 4ab78a96-fc72-4378-8d04-60e02d106588
+report_format: 10
+puppet_version: 6.4.1
+status: changed
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: info
+  message: Using configured environment 'production'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:37.462390842+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving pluginfacts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:37.463252877+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/facts.d]/owner"
+  tags:
+  - notice
+  - file
+  - pluginfacts
+  time: '2019-04-30T15:02:37.558357231+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving plugin
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:37.560073539+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.136186440+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.138454636+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/facter_dot_d.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.140736804+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/package_provider.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.143100907+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/pe_version.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.145570947+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/puppet_settings.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.147902435+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/root_home.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.150158756+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/service_provider.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.152345356+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/sudoversion.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.154544012+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/util]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.156592164+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/util/puppet_settings.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.158744543+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.161790626+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.164279610+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/deprecation.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.166940551+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/fact.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.169121301+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_a.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.171210561+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.173296735+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.175534783+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.177783195+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_float.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.179935988+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.182039787+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.184360893+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.187053932+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.189366769+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.191599367+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/functions/length.rb\t2019-04-30\
+    \ 10:40:07.119360224 +0200\n+++ /tmp/puppet-file20190430-18468-11q8r96\t2019-04-30\
+    \ 15:02:38.215415002 +0200\n@@ -1,9 +1,4 @@\n-# A function to eventually replace\
+    \ the old size() function for stdlib\n-# The original size function did not handle\
+    \ Puppets new type capabilities, so this function is a Puppet 4 compatible solution.\n\
+    -#\n-# Note: from Puppet 6.0.0, the compatible function with the same name in\
+    \ Puppet core\n-# will be used instead of this function.\n-#\n+# A function to\
+    \ eventually replace the old size() function for stdlib - The original size function\
+    \ did not handle Puppets new type capabilities, so this function is a Puppet 4\
+    \ compatible solution.\n Puppet::Functions.create_function(:length) do\n   dispatch\
+    \ :length do\n     param 'Variant[String,Array,Hash]', :value\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/length.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.220485061+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}3320c90f7685178c11937174fcf3119c' to '{md5}3f6b0510bfe134241e4529d3f1a5318d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/length.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.266167241+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/length.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.267619469+02:00'
+  file:
+  line:
+- level: notice
+  message: removed
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/os_version_gte.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.270633614+02:00'
+  file:
+  line:
+- level: notice
+  message: removed
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/seeded_rand_string.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.271703476+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/functions/sprintf_hash.rb\t\
+    2019-04-30 10:40:07.214359490 +0200\n+++ /tmp/puppet-file20190430-18468-vgii7i\t\
+    2019-04-30 15:02:38.290414538 +0200\n@@ -12,9 +12,6 @@\n #                   \
+    \       { 'foo' => 'a string', 'number' => 5 })\n #   # $output = 'String: a string\
+    \ / number converted to binary: 101'\n #\n-# Note that since Puppet 4.10.10, and\
+    \ 5.3.4 this functionality is supported by the\n-# `sprintf` function in puppet\
+    \ core.\n-#\n Puppet::Functions.create_function(:sprintf_hash) do\n   # @param\
+    \ format The format to use.\n   # @param arguments Hash with parameters.\n@@ -27,8\
+    \ +24,6 @@\n   end\n \n   def sprintf_hash(format, arguments)\n-    call_function('deprecation',\
+    \ 'sprintf_hash', 'This method is deprecated. From Puppet 4.10.10/5.3.4 please\
+    \ use the built-in sprintf instead')\n-\n     Kernel.sprintf(format, Hash[arguments.map\
+    \ { |(k, v)| [k.to_sym, v] }])\n   end\n end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/sprintf_hash.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.295740541+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}19bee19c55865e3240be3567741ba347' to '{md5}50fc7c6e57c098b7e6a594e1fd0d9904'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/sprintf_hash.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.330148995+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/sprintf_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.331173261+02:00'
+  file:
+  line:
+- level: notice
+  message: removed
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/stdlib]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.333760591+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_json.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.335402260+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_json_pretty.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.338223402+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_yaml.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.341481733+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/type_of.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.344600022+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.347302135+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.349892371+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.352286983+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.354626876+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_integer.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.357077981+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.359661451+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.362073526+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.364516596+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_legacy.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.366836431+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.369544443+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_re.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.372336154+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_slength.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.375328837+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.378261902+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.380438562+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.382515188+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/abs.rb\t\
+    2019-04-30 10:40:07.590356587 +0200\n+++ /tmp/puppet-file20190430-18468-yybxa9\t\
+    2019-04-30 15:02:38.403413840 +0200\n@@ -5,9 +5,6 @@\n   newfunction(:abs, :type\
+    \ => :rvalue, :doc => <<-DOC\n     Returns the absolute value of a number, for\
+    \ example -34.56 becomes\n     34.56. Takes a single integer and float value as\
+    \ an argument.\n-\n-    Note: from Puppet 6.0.0, the compatible function with\
+    \ the same name in Puppet core\n-    will be used instead of this function.\n\
+    \     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/abs.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.409516754+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}f36ef597641f56b400bf5425f329b52c' to '{md5}176df45128a7b89c9ec6a6c6918d8c30'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/abs.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.440612610+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/abs.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.441504252+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2array.rb\t\
+    2019-04-30 10:40:07.606356464 +0200\n+++ /tmp/puppet-file20190430-18468-1fmxiqh\t\
+    2019-04-30 15:02:38.460413488 +0200\n@@ -6,23 +6,6 @@\n     This converts any\
+    \ object to an array containing that object. Empty argument\n     lists are converted\
+    \ to an empty array. Arrays are left untouched. Hashes are\n     converted to\
+    \ arrays of alternating keys and values.\n-\n-    Note that since Puppet 5.0.0\
+    \ it is possible to create new data types for almost any\n-    datatype using\
+    \ the type system and the built-in\n-    [`Array.new`](https://puppet.com/docs/puppet/latest/function.html#conversion-to-array-and-tuple)\n\
+    -    function is used to create a new Array..\n-\n-        $hsh = {'key' => 42,\
+    \ 'another-key' => 100}\n-        notice(Array($hsh))\n-\n-    Would notice `[['key',\
+    \ 42], ['another-key', 100]]`\n-\n-    The Array data type also has a special\
+    \ mode to \"create an array if not already an array\"\n-\n-        notice(Array({'key'\
+    \ => 42, 'another-key' => 100}, true))\n-\n-    Would notice `[{'key' => 42, 'another-key'\
+    \ => 100}]`, as the `true` flag prevents the hash from being\n-    transformed\
+    \ into an array.\n   DOC\n              ) do |arguments|\n \n@@ -32,7 +15,6 @@\n\
+    \ \n     return arguments unless arguments.length == 1\n     return arguments[0]\
+    \ if arguments[0].is_a?(Array)\n-    return [] if arguments == ['']\n     if arguments[0].is_a?(Hash)\n\
+    \       result = []\n       arguments[0].each do |key, value|\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2array.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.466054151+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}bb45c181f51b6cb124de9ab44ff74ae5' to '{md5}60cdb0bdfabff0115e74eda31c5c869b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2array.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.496025726+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.497113080+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2bool.rb\t\
+    2019-04-30 10:40:07.625356317 +0200\n+++ /tmp/puppet-file20190430-18468-xo428\t\
+    2019-04-30 15:02:38.523413098 +0200\n@@ -11,9 +11,6 @@\n     * Number (or a string\
+    \ representation of a number) > 0 will return true, otherwise false\n     * undef\
+    \ will return false\n     * Anything else will return true\n-\n-    Also see the\
+    \ built-in [`Boolean.new`](https://puppet.com/docs/puppet/latest/function.html#conversion-to-boolean)\n\
+    -    function.\n   DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2bool.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.530256138+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}12535df795966eadcf27e05413c691cc' to '{md5}4bafd2903a5e7992b4a8af476f05f46a'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2bool.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.562785140+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.563910521+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/assert_private.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.567386699+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/base64.rb\t\
+    2019-04-30 10:40:07.663356023 +0200\n+++ /tmp/puppet-file20190430-18468-156y1xb\t\
+    2019-04-30 15:02:38.586412709 +0200\n@@ -13,22 +13,13 @@\n       $encodestring\
+    \ = base64('encode', 'thestring', $method)\n       $decodestring = base64('decode',\
+    \ 'dGhlc3RyaW5n', $method)\n \n-    Note: Since Puppet 4.8.0, the Binary data\
+    \ type can be used to produce base 64 encoded strings.\n-    See the `new()` function\
+    \ for the Binary and String types for documentation. Also see `binary_file()`\n\
+    -    function for reading a file with binary (non UTF-8) content.\n-\n-      \
+    \ # encode a string as if it was binary\n-       $encodestring = String(Binary('thestring',\
+    \ '%s'))\n-       # decode a Binary assuming it is an UTF-8 String\n-       $decodestring\
+    \ = String(Binary(\"dGhlc3RyaW5n\"), \"%s\")\n-\n     DOC\n \n     require 'base64'\n\
+    \ \n     raise Puppet::ParseError, \"base64(): Wrong number of arguments (#{args.length};\
+    \ must be >= 2)\" unless args.length >= 2\n \n-    actions = ['encode', 'decode']\n\
+    +    actions = %w[encode decode]\n \n     unless actions.include?(args[0])\n \
+    \      raise Puppet::ParseError, \"base64(): the first argument must be one of\
+    \ 'encode' or 'decode'\"\n@@ -38,7 +29,7 @@\n       raise Puppet::ParseError,\
+    \ 'base64(): the second argument must be a string to base64'\n     end\n \n- \
+    \   method = ['default', 'strict', 'urlsafe']\n+    method = %w[default strict\
+    \ urlsafe]\n \n     chosen_method = if args.length <= 2\n                    \
+    \   'default'\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/base64.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.594053719+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}5c044321bc37fecd54e06a0ec5a067ba' to '{md5}6216cc60b71949724e21b0be4dbac316'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/base64.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.633476026+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/base64.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.634702730+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/basename.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.638225811+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2num.rb\t\
+    2019-04-30 10:40:07.702355722 +0200\n+++ /tmp/puppet-file20190430-18468-nxran1\t\
+    2019-04-30 15:02:38.657412270 +0200\n@@ -7,16 +7,6 @@\n       false, f, 0, n,\
+    \ and no to 0\n       true, t, 1, y, and yes to 1\n     Requires a single boolean\
+    \ or string as an input.\n-\n-    Note that since Puppet 5.0.0 it is possible\
+    \ to create new data types for almost any\n-    datatype using the type system\
+    \ and the built-in\n-    [`Numeric.new`](https://puppet.com/docs/puppet/latest/function.html#conversion-to-numeric),\n\
+    -    [`Integer.new`](https://puppet.com/docs/puppet/latest/function.html#conversion-to-integer),\
+    \ and\n-    [`Float.new`](https://puppet.com/docs/puppet/latest/function.html#conversion-to-float)\n\
+    -    function are used to convert to numeric values.\n-\n-        notice(Integer(false))\
+    \ # Notices 0\n-        notice(Float(true))    # Notices 1.0\n     DOC\n     \
+    \         ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2num.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.663666017+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}0d0a75d743e099eafada405f57ead3ea' to '{md5}bfeeac22e909c76dc5a0d55441f39a27'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2num.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.695147220+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2num.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.696939259+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2str.rb\t\
+    2019-04-30 10:40:07.721355576 +0200\n+++ /tmp/puppet-file20190430-18468-jh5k2v\t\
+    2019-04-30 15:02:38.718411893 +0200\n@@ -15,17 +15,6 @@\n     bool2str(false,\
+    \ 't', 'f')         => 'f'\n \n     Requires a single boolean as an input.\n-\n\
+    -    Note that since Puppet 5.0.0 it is possible to create new data types for\
+    \ almost any\n-    datatype using the type system and the built-in\n-    [`String.new`](https://puppet.com/docs/puppet/latest/function.html#boolean-to-string)\n\
+    -    function is used to convert to String with many different format options.\n\
+    -\n-        notice(String(false))         # Notices 'false'\n-        notice(String(true))\
+    \          # Notices 'true'\n-        notice(String(false, '%y'))   # Notices\
+    \ 'yes'\n-        notice(String(true, '%y'))    # Notices 'no'\n-\n     DOC\n\
+    \              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2str.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.724854472+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}ab45ec6cbcd35194d478c2da0527ab74' to '{md5}e9e1c441e3b3c51b8b0734d12e9a63a5'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2str.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.757527545+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2str.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.758688793+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/camelcase.rb\t\
+    2019-04-30 10:40:07.741355421 +0200\n+++ /tmp/puppet-file20190430-18468-1w8ofoy\t\
+    2019-04-30 15:02:38.780411510 +0200\n@@ -5,9 +5,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:camelcase, :type => :rvalue, :doc => <<-DOC\n     Converts the\
+    \ case of a string or all strings in an array to camel case.\n-\n-    Note: from\
+    \ Puppet 6.0.0, the compatible function with the same name in Puppet core\n- \
+    \   will be used instead of this function.\n   DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/camelcase.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.785260884+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}b46cd7766f7f500142fedaae6e81eb47' to '{md5}13f3125b1bcb6ce7794385aea6cbc4c0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/camelcase.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.815170456+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/camelcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.816735363+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/capitalize.rb\t\
+    2019-04-30 10:40:07.760355275 +0200\n+++ /tmp/puppet-file20190430-18468-1gzobtq\t\
+    2019-04-30 15:02:38.836411164 +0200\n@@ -6,9 +6,6 @@\n   newfunction(:capitalize,\
+    \ :type => :rvalue, :doc => <<-DOC\n     Capitalizes the first letter of a string\
+    \ or array of strings.\n     Requires either a single string or an array as an\
+    \ input.\n-\n-    Note: from Puppet 6.0.0, the compatible function with the same\
+    \ name in Puppet core\n-    will be used instead of this function.\n     DOC\n\
+    \              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/capitalize.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.842762300+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}45d3ba2d02056b5dd0bc7f69ab046817' to '{md5}0a039c4bcd3a73dab80b389332457f0d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/capitalize.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.875162325+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/capitalize.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.876528312+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ceiling.rb\t\
+    2019-04-30 10:40:07.777355143 +0200\n+++ /tmp/puppet-file20190430-18468-1u673o7\t\
+    2019-04-30 15:02:38.903410750 +0200\n@@ -5,9 +5,6 @@\n   newfunction(:ceiling,\
+    \ :type => :rvalue, :doc => <<-DOC\n     Returns the smallest integer greater\
+    \ or equal to the argument.\n     Takes a single numeric value as an argument.\n\
+    -\n-    Note: from Puppet 6.0.0, the compatible function with the same name in\
+    \ Puppet core\n-    will be used instead of this function.\n     DOC\n       \
+    \       ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ceiling.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.908866892+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}7cc2fba2933190774468035d24778f51' to '{md5}c4af0da229909c00b2adda7bdd3f0d93'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ceiling.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.937921490+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ceiling.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.939400238+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chomp.rb\t\
+    2019-04-30 10:40:07.794355012 +0200\n+++ /tmp/puppet-file20190430-18468-uhv7h9\t\
+    2019-04-30 15:02:38.956410422 +0200\n@@ -6,9 +6,6 @@\n     Removes the record\
+    \ separator from the end of a string or an array of\n     strings, for example\
+    \ `hello\\n` becomes `hello`.\n     Requires a single string or array as an input.\n\
+    -\n-    Note: from Puppet 6.0.0, the compatible function with the same name in\
+    \ Puppet core\n-    will be used instead of this function.\n     DOC\n       \
+    \       ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chomp.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:38.961511373+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}393c7ea2399b531b1528cbbac6948f3c' to '{md5}ebb5eb5e2020ec84c00477777f29b6bc'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chomp.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.988125206+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chomp.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:38.989873704+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chop.rb\t\
+    2019-04-30 10:40:07.813354865 +0200\n+++ /tmp/puppet-file20190430-18468-1g6jlh4\t\
+    2019-04-30 15:02:39.021410021 +0200\n@@ -8,9 +8,6 @@\n     string returns an empty\
+    \ string. If you wish to merely remove record\n     separators then you should\
+    \ use the `chomp` function.\n     Requires a string or array of strings as input.\n\
+    -\n-    Note: from Puppet 6.0.0, the compatible function with the same name in\
+    \ Puppet core\n-    will be used instead of this function.\n     DOC\n       \
+    \       ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chop.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.026064672+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}b8d88826795cf13f803f264ce42e1cdf' to '{md5}6a7d4154b326e84e478eb4a17aa55e74'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chop.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.059516802+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chop.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.060530756+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/clamp.rb\t\
+    2019-04-30 10:40:07.833354711 +0200\n+++ /tmp/puppet-file20190430-18468-1dk6kdq\t\
+    2019-04-30 15:02:39.073409699 +0200\n@@ -4,9 +4,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:clamp, :type => :rvalue, :arity => -2, :doc => <<-DOC\n     Clamps\
+    \ value to a range.\n-\n-    Note: From Puppet 6.0.0 this can be done with only\
+    \ core Puppet like this:\n-      [$minval, $maxval, $value_to_clamp].sort[1]\n\
+    \     DOC\n              ) do |args|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/clamp.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.078964240+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}5c2c8f3f048ed1afd0c34c0eb475b076' to '{md5}eeaed011946f4dec98870815e7c1657c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/clamp.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.102567422+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/clamp.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.103666597+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/concat.rb\t\
+    2019-04-30 10:40:07.852354564 +0200\n+++ /tmp/puppet-file20190430-18468-hs0ou9\t\
+    2019-04-30 15:02:39.119409415 +0200\n@@ -12,10 +12,6 @@\n     Would result in:\n\
+    \ \n       ['1','2','3','4','5','6','7','8','9']\n-\n-    Note: Since Puppet 4.0\
+    \ concatenation of arrays and hashes can be done with the + operator.\n-\n-  \
+    \    ['1','2','3'] + ['4','5','6'] + ['7','8','9']\n   DOC\n              ) do\
+    \ |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/concat.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.125786608+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}107cf03fb8343dbf20f69bd4a07a7bb1' to '{md5}02a6ba0560a005b5f92aec096ce26e09'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/concat.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.149752808+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/concat.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.150971833+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/convert_base.rb\t\
+    2019-04-30 10:40:07.872354410 +0200\n+++ /tmp/puppet-file20190430-18468-yvn55t\t\
+    2019-04-30 15:02:39.166409124 +0200\n@@ -10,11 +10,6 @@\n       $binary_repr =\
+    \ convert_base(5, 2)  # $binary_repr is now set to \"101\"\n       $hex_repr =\
+    \ convert_base(\"254\", \"16\")  # $hex_repr is now set to \"fe\"\n \n-     Note:\
+    \ Since Puppet 4.5.0 this can be done with String.new() and its many formatting\
+    \ options:\n-\n-       $binary_repr = String(5, '%b') # results in \"101\"\n-\
+    \       $hex_repr = String(254, \"%x\")  # results in \"fe\"\n-       $hex_repr\
+    \ = String(254, \"%#x\")  # results in \"0xfe\"\n     DOC\n \n     raise Puppet::ParseError,\
+    \ 'convert_base(): First argument must be either a string or an integer' unless\
+    \ args[0].is_a?(Integer) || args[0].is_a?(String)\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/convert_base.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.173134964+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}a34a1172f158c4780f6387df082aade0' to '{md5}438da17946864b835e38155b8f72a184'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/convert_base.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.198256538+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/convert_base.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.199438241+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/count.rb\t\
+    2019-04-30 10:40:07.886354302 +0200\n+++ /tmp/puppet-file20190430-18468-7nt3il\t\
+    2019-04-30 15:02:39.215408822 +0200\n@@ -4,20 +4,8 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:count, :type => :rvalue, :arity => -2, :doc => <<-DOC\n     Takes\
+    \ an array as first argument and an optional second argument.\n-    Count the\
+    \ number of elements in array that is equal to the second argument.\n-    If called\
+    \ with only an array, it counts the number of elements that are not nil/undef/empty-string.\n\
+    -\n-    Note: equality is tested with a Ruby method and it is therefore subject\
+    \ to what Ruby considers\n-    to be equal. For strings this means that equality\
+    \ is case sensitive.\n-\n-    In Puppet core, counting can be done in general\
+    \ by using a combination of the core functions\n-    filter() (since Puppet 4.0.0)\
+    \ and length() (since Puppet 5.5.0, before that in stdlib).\n-    Example below\
+    \ shows counting values that are not undef.\n-\n-      notice([42, \"hello\",\
+    \ undef].filter |$x| { $x =~ NotUndef }.length)\n-\n-    Would notice the value\
+    \ 2.\n-\n+    Count the number of elements in array that matches second argument.\n\
+    +    If called with only an array it counts the number of elements that are not\
+    \ nil/undef.\n   DOC\n              ) do |args|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/count.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.220611946+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}b3bcfa1fc10df6f2635c10804cfb567c' to '{md5}0241b1bd0bc8de6426b7d077a54f56fe'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/count.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.245305839+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/count.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.246407570+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/deep_merge.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.249674029+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/defined_with_params.rb\t\
+    2019-04-30 10:40:07.924354008 +0200\n+++ /tmp/puppet-file20190430-18468-113nhom\t\
+    2019-04-30 15:02:39.266408506 +0200\n@@ -31,7 +31,7 @@\n       type_name, title\
+    \ = Puppet::Resource.type_and_title(reference, nil)\n       type = Puppet::Pops::Evaluator::Runtime3ResourceSupport.find_resource_type_or_class(find_global_scope,\
+    \ type_name.downcase)\n     elsif reference.is_a?(Puppet::Resource)\n-      type\
+    \ = reference.type\n+      type = reference.resource_type\n       title = reference.title\n\
+    \     else\n       raise(ArgumentError, \"Reference is not understood: '#{reference.class}'\"\
+    )\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/defined_with_params.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.272298867+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}bd2564fe13dd46e4afac1e7f7db45eee' to '{md5}0e2a92b10efb6c502df6a52f35cf7983'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/defined_with_params.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.296407682+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/defined_with_params.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.297415202+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete.rb\t\
+    2019-04-30 10:40:07.942353869 +0200\n+++ /tmp/puppet-file20190430-18468-1e293sw\t\
+    2019-04-30 15:02:39.310408234 +0200\n@@ -19,22 +19,6 @@\n \n         delete('abracadabra',\
+    \ 'bra')\n         Would return: 'acada'\n-\n-    Note that from Puppet 4.0.0\
+    \ the minus (-) operator deletes values from arrays and keys from a hash:\n-\n\
+    -        ['a', 'b', 'c', 'b'] - 'b'\n-        # would return ['a', 'c']\n-\n-\
+    \        {'a'=>1,'b'=>2,'c'=>3} - ['b','c'])\n-        # would return {'a' =>\
+    \ '1'}\n-\n-    A global delete from a string can be performed with the regsubst()\
+    \ function:\n-\n-        'abracadabra'.regsubst(/bra/, '', 'G')\n-        # would\
+    \ return 'acada'\n-\n-    In general, the filter() function can filter out entries\
+    \ from arrays and hashes based on keys and/or values.\n-\n   DOC\n           \
+    \   ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.315839538+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}875f64cf060e00bb6f187875a4bc5e88' to '{md5}ec0bb949e24d1b9ca6c749af0ab18de9'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.343292127+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.344371415+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_at.rb\t\
+    2019-04-30 10:40:07.960353730 +0200\n+++ /tmp/puppet-file20190430-18468-1816j8o\t\
+    2019-04-30 15:02:39.362407913 +0200\n@@ -10,17 +10,6 @@\n         delete_at(['a','b','c'],\
+    \ 1)\n \n     Would return: ['a','c']\n-\n-    Note that since Puppet 4 this can\
+    \ be done in general with the filter function:\n-\n-        ['a', 'b', 'c'].filter\
+    \ |$pos, $val | { $pos != 1 }\n-\n-    Or if a delete is wanted from the beginning\
+    \ or end of the array, by using the slice operator [ ]:\n-\n-        $array[0,\
+    \ -1] # the same as all the values\n-        $array[2, -1] # all but the first\
+    \ 2 elements\n-        $array[0, -3] # all but the last 2 elements\n-        $array[1,\
+    \ -2] # all but the first and last element\n   DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_at.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.367781329+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}d909ad4779276559cb05b09193b047e0' to '{md5}4a6bde67835592dafa48bca7bb8af939'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_at.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.394872268+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_at.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.396148801+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_regex.rb\t\
+    2019-04-30 10:40:07.977353599 +0200\n+++ /tmp/puppet-file20190430-18468-1826z0a\t\
+    2019-04-30 15:02:39.414407592 +0200\n@@ -22,12 +22,6 @@\n         delete_regex({'a'=>1,'b'=>2,'c'=>3},\
+    \ '^a$')\n         Would return: {'b'=>2,'c'=>3}\n \n-     Note that since Puppet\
+    \ 4 this can be done in general with the filter function:\n-\n-        [\"aaa\"\
+    , \"aba\", \"aca\"].filter |$val| { $val !~ /b/ }\n-        # Would return: ['aaa',\
+    \ 'aca']\n-\n-\n   DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_regex.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.419818866+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}509b6526b9dea21321c6d7a0f2de591a' to '{md5}ee86f13f796e61e41c62ee91f8349735'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_regex.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.449662131+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_regex.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.450857203+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_undef_values.rb\t\
+    2019-04-30 10:40:07.992353483 +0200\n+++ /tmp/puppet-file20190430-18468-1ysur8v\t\
+    2019-04-30 15:02:39.468407258 +0200\n@@ -15,11 +15,6 @@\n \n     Would return:\
+    \ ['A','',false]\n \n-    Note that since Puppet 4.0.0 the equivalent can be performed\
+    \ with the filter() function in Puppet:\n-\n-        $array.filter |$val| { $val\
+    \ =~ NotUndef }\n-        $hash.filter |$key, $val| { $val =~ NotUndef }\n-\n\
+    \       DOC\n              ) do |args|\n \n@@ -30,10 +25,9 @@\n     end\n    \
+    \ result = args[0].dup\n     if result.is_a?(Hash)\n-      result.delete_if {\
+    \ |_, val| val.equal?(:undef) || val.nil? }\n+      result.delete_if { |_key,\
+    \ val| val.equal? :undef }\n     elsif result.is_a?(Array)\n       result.delete\
+    \ :undef\n-      result.delete nil\n     end\n     result\n   end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_undef_values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.475221609+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}01e6547fcd9ff93bb5294be3c0761a49' to '{md5}247a52c41dc02375b50ac3c1791f4c09'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_undef_values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.503689956+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_undef_values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.504951533+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_values.rb\t\
+    2019-04-30 10:40:08.009353352 +0200\n+++ /tmp/puppet-file20190430-18468-vhoass\t\
+    2019-04-30 15:02:39.524406912 +0200\n@@ -11,11 +11,6 @@\n \n     Would return:\
+    \ {'a'=>'A','c'=>'C','B'=>'D'}\n \n-    Note that since Puppet 4.0.0 the equivalent\
+    \ can be performed with the filter() function in Puppet:\n-\n-        $array.filter\
+    \ |$val| { $val != 'B' }\n-        $hash.filter |$key, $val| { $val != 'B' }\n\
+    -\n       DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.530817409+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}7cc9f122bc7ddfb6359146cd68e5f27a' to '{md5}0a979383ac73e1bf82278e0eb104842c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.561986350+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.563525893+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/deprecation.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.568665574+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/difference.rb\t\
+    2019-04-30 10:40:08.045353074 +0200\n+++ /tmp/puppet-file20190430-18468-1uw34l9\t\
+    2019-04-30 15:02:39.599406448 +0200\n@@ -12,12 +12,6 @@\n         difference([\"\
+    a\",\"b\",\"c\"],[\"b\",\"c\",\"d\"])\n \n     Would return: [\"a\"]\n-\n-   \
+    \ Note: Since Puppet 4 the minus (-) operator in the Puppet language does the\
+    \ same thing:\n-\n-      ['a', 'b', 'c'] - ['b', 'c', 'd']\n-      # would return\
+    \ ['a']\n-\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/difference.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.606920056+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}419c1179460a2878d99b577dfb41977d' to '{md5}e3d3006b7f50fc0fad1616ec53f21614'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/difference.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.645413073+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/difference.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.647218233+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.652996406+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig44.rb\t\
+    2019-04-30 10:40:08.077352827 +0200\n+++ /tmp/puppet-file20190430-18468-zl5olg\t\
+    2019-04-30 15:02:39.687405904 +0200\n@@ -7,7 +7,7 @@\n     :type => :rvalue,\n\
+    \     :arity => -2,\n     :doc => <<-DOC\n-    DEPRECATED: This function has been\
+    \ replaced in Puppet 4.5.0.\n+    DEPRECATED: This function has been replaced\
+    \ in puppet 4.5.0.\n \n     Looks up into a complex structure of arrays and hashes\
+    \ and returns a value\n     or the default value if nothing was found.\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig44.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.694617093+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}433ae008eed28fa3f99dbdd64926bfd8' to '{md5}2317ddee7dbda385e2f964655fe6ad88'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig44.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.731389899+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig44.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.732560535+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dirname.rb\t\
+    2019-04-30 10:40:08.095352688 +0200\n+++ /tmp/puppet-file20190430-18468-1uu3paf\t\
+    2019-04-30 15:02:39.756405478 +0200\n@@ -16,10 +16,6 @@\n     unless arguments[0].is_a?(String)\n\
+    \       raise(Puppet::ParseError, 'dirname(): Requires string as argument')\n\
+    \     end\n-    # undef is converted to an empty string ''\n-    if arguments[0].empty?\n\
+    -      raise(Puppet::ParseError, 'dirname(): Requires a non-empty string as argument')\n\
+    -    end\n \n     return File.dirname(arguments[0])\n   end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dirname.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.762683214+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}eaafc8268d35709f8d460a48e918ee4c' to '{md5}240597e264df02effa454cf9cb8bb9e7'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dirname.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.790146679+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dirname.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.791444490+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dos2unix.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.795250637+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/downcase.rb\t\
+    2019-04-30 10:40:08.132352402 +0200\n+++ /tmp/puppet-file20190430-18468-ip2ne3\t\
+    2019-04-30 15:02:39.812405132 +0200\n@@ -5,9 +5,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:downcase, :type => :rvalue, :doc => <<-DOC\n     Converts the\
+    \ case of a string or all strings in an array to lower case.\n-\n-    Note: from\
+    \ Puppet 6.0.0, the compatible function with the same name in Puppet core\n- \
+    \   will be used instead of this function.\n   DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/downcase.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.819058316+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}384d5ad77ac70bd199fcd63fa31ede38' to '{md5}3e6b908548607a55ee426e8be16fb46c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/downcase.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.847501638+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/downcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.850082395+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/empty.rb\t\
+    2019-04-30 10:40:08.150352263 +0200\n+++ /tmp/puppet-file20190430-18468-bi0mdj\t\
+    2019-04-30 15:02:39.868404786 +0200\n@@ -4,9 +4,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:empty, :type => :rvalue, :doc => <<-DOC\n     Returns true if\
+    \ the variable is empty.\n-\n-    Note: from Puppet 5.5.0, the compatible function\
+    \ with the same name in Puppet core\n-    will be used instead of this function.\n\
+    \   DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/empty.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.874587022+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}455ab7360e7d15f78ff8f359e6da432a' to '{md5}f9dcb1b4cb0abb671294d5283e673ee5'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/empty.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.902063115+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/empty.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.903237219+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/enclose_ipv6.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.906689211+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_packages.rb\t\
+    2019-04-30 10:40:08.182352016 +0200\n+++ /tmp/puppet-file20190430-18468-1get2wb\t\
+    2019-04-30 15:02:39.920404464 +0200\n@@ -39,7 +39,9 @@\n       Puppet::Parser::Functions.function(:ensure_resource)\n\
+    \       packages.each do |package_name|\n         raise(Puppet::ParseError, 'ensure_packages():\
+    \ Empty String provided for package name') if package_name.empty?\n-        function_ensure_resource(['package',\
+    \ package_name, defaults])\n+        unless findresource(\"Package[#{package_name}]\"\
+    )\n+          function_ensure_resource(['package', package_name, defaults])\n\
+    +        end\n       end\n     end\n   end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_packages.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.927410924+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}8f72ca68f1d93fc7042552fef8fdb2b2' to '{md5}a0b4bdc14613d4b8c396b4e02a1aa33d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_packages.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.950741561+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_packages.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.951840141+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_resource.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.955246778+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_resources.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:39.958751139+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/flatten.rb\t\
+    2019-04-30 10:40:08.241351561 +0200\n+++ /tmp/puppet-file20190430-18468-16vcnqd\t\
+    2019-04-30 15:02:39.972404143 +0200\n@@ -11,9 +11,6 @@\n         flatten(['a',\
+    \ ['b', ['c']]])\n \n     Would return: ['a','b','c']\n-\n-    Note: from Puppet\
+    \ 5.5.0, the compatible function with the same name in Puppet core\n-    will\
+    \ be used instead of this function.\n   DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/flatten.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:39.978075624+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}8558874ff069ba6cbaecac47c4836ca9' to '{md5}54fd2d9d7bc7cd4f9889554da6094dd8'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/flatten.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.005994257+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/flatten.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.007484787+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/floor.rb\t\
+    2019-04-30 10:40:08.258351429 +0200\n+++ /tmp/puppet-file20190430-18468-1dvjxmo\t\
+    2019-04-30 15:02:40.023403828 +0200\n@@ -5,9 +5,6 @@\n   newfunction(:floor, :type\
+    \ => :rvalue, :doc => <<-DOC\n     Returns the largest integer less or equal to\
+    \ the argument.\n     Takes a single numeric value as an argument.\n-\n-    Note:\
+    \ from Puppet 6.0.0, the compatible function with the same name in Puppet core\n\
+    -    will be used instead of this function.\n     DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/floor.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.029021540+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}1fdd8c7a0d1350c4e67578209cbfd937' to '{md5}f0a70977110525dc4aa6b109db9ff9e4'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/floor.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.052794029+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/floor.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.053869209+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_rand_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.059022318+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_rotate.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.063375915+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_uuid.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.067972493+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/get_module_path.rb\t\
+    2019-04-30 10:40:08.331350866 +0200\n+++ /tmp/puppet-file20190430-18468-156yhel\t\
+    2019-04-30 15:02:40.080403475 +0200\n@@ -8,9 +8,6 @@\n \n     Example:\n     \
+    \  $module_path = get_module_path('stdlib')\n-\n-    Note that since Puppet 5.4.0\
+    \ the function `module_directory()` in Puppet does the same thing and will return\n\
+    -    the path to the first found module if given multiple values or an array.\n\
+    \   DOC\n              ) do |args|\n     raise(Puppet::ParseError, 'get_module_path():\
+    \ Wrong number of arguments, expects one') unless args.size == 1\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/get_module_path.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.085552969+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}91b47019658cb4f438a8f96c6e12213b' to '{md5}e141ce049d4ace6d12b50d6b171b029c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/get_module_path.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.107827743+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/get_module_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.109009096+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getparam.rb\t\
+    2019-04-30 10:40:08.350350719 +0200\n+++ /tmp/puppet-file20190430-18468-1io5nae\t\
+    2019-04-30 15:02:40.123403210 +0200\n@@ -5,38 +5,20 @@\n                     \
+    \                  :type => :rvalue,\n                                       :doc\
+    \ => <<-'DOC'\n     Takes a resource reference and name of the parameter and\n\
+    -    returns value of resource's parameter. Note that user defined\n-    resource\
+    \ types are evaluated lazily.\n+    returns value of resource's parameter.\n \n\
+    \     *Examples:*\n \n-        # define a resource type with a parameter\n   \
+    \      define example_resource($param) {\n         }\n \n-        # declare an\
+    \ instance of that type\n         example_resource { \"example_resource_instance\"\
+    :\n-            param => \"'the value we are getting in this example''\"\n+  \
+    \          param => \"param_value\"\n         }\n \n-        # Because of order\
+    \ of evaluation, a second definition is needed\n-        # that will be evaluated\
+    \ after the first resource has been declared\n-        #\n-        define example_get_param\
+    \ {\n-          # This will notice the value of the parameter\n-          notice(getparam(Example_resource[\"\
+    example_resource_instance\"], \"param\"))\n-        }\n-\n-        # Declare an\
+    \ instance of the second resource type - this will call notice\n-        example_get_param\
+    \ { 'show_notify': }\n-\n-    Would notice: 'the value we are getting in this\
+    \ example'\n-\n-    Note that since Puppet 4.0.0 it is possible to get a parameter\
+    \ value by using its data type\n-    and the [ ] operator. The example below is\
+    \ equivalent to a call to getparam():\n-\n-        Example_resource['example_resource_instance']['param']\n\
+    +        getparam(Example_resource[\"example_resource_instance\"], \"param\")\n\
+    \ \n+    Would return: param_value\n   DOC\n                                 \
+    \     ) do |vals|\n   reference, param = vals\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getparam.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.129788576+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}b8f4a75c6e0d9732c5f937bd35b00923' to '{md5}84c7358b24f0a5e45c1ad523c196817e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getparam.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.156821346+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getparam.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.158069439+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getvar.rb\t\
+    2019-04-30 10:40:08.369350572 +0200\n+++ /tmp/puppet-file20190430-18468-1o2b054\t\
+    2019-04-30 15:02:40.170402919 +0200\n@@ -3,8 +3,7 @@\n #\n module Puppet::Parser::Functions\n\
+    \   newfunction(:getvar, :type => :rvalue, :doc => <<-'DOC') do |args|\n-    Lookup\
+    \ a variable in a given namespace.\n-    Returns undef if variable does not exist.\n\
+    +    Lookup a variable in a remote namespace.\n \n     For example:\n \n@@ -16,11\
+    \ +15,6 @@\n         $datalocation = 'site::data'\n         $bar = getvar(\"${datalocation}::bar\"\
+    )\n         # Equivalent to $bar = $site::data::bar\n-\n-    Note: from Puppet\
+    \ 6.0.0, the compatible function with the same name in Puppet core\n-    will\
+    \ be used instead of this function. The new function also has support for\n- \
+    \   digging into a structured value. See the built-in\n-    [`getvar`](https://puppet.com/docs/puppet/latest/function.html#getvar)\
+    \ function\n     DOC\n \n     unless args.length == 1\n@@ -33,7 +27,7 @@\n   \
+    \      result = lookupvar((args[0]).to_s)\n       end\n \n-      # avoid relying\
+    \ on inconsistent behaviour around ruby return values from catch\n+      # avoid\
+    \ relying on incosistent behaviour around ruby return values from catch\n    \
+    \   result\n     rescue Puppet::ParseError # rubocop:disable Lint/HandleExceptions\
+    \ : Eat the exception if strict_variables = true is set\n     end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getvar.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.175675372+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}60ee5451005017bd3234113354f68765' to '{md5}835e6b79e209a541e125cdaddefb3396'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getvar.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.201467404+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getvar.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.202450546+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/glob.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.206093057+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/grep.rb\t\
+    2019-04-30 10:40:08.414350225 +0200\n+++ /tmp/puppet-file20190430-18468-9rvmqd\t\
+    2019-04-30 15:02:40.217402629 +0200\n@@ -13,10 +13,6 @@\n     Would return:\n\
+    \ \n         ['aaa','aaaddd']\n-\n-    Note that since Puppet 4.0.0, the filter()\
+    \ function in Puppet can do the same:\n-\n-        ['aaa', 'bbb', 'ccc', 'aaaddd'].\
+    \ filter |$x| { $x =~ 'aaa' }\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/grep.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.223701045+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}f8a965a28326f7cde962a13d8273d617' to '{md5}b2e7e32188a1cb4f1dafa375ba9b8b14'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/grep.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.246237227+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/grep.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.247323575+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_interface_with.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.250794927+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.253738877+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_ip_network.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.256665648+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_key.rb\t\
+    2019-04-30 10:40:08.496349592 +0200\n+++ /tmp/puppet-file20190430-18468-1o4ibvc\t\
+    2019-04-30 15:02:40.267402320 +0200\n@@ -15,12 +15,6 @@\n           notice('this\
+    \ will be printed')\n         }\n \n-    Note: Since Puppet 4.0.0 this can be\
+    \ achieved in the Puppet language with the following equivalent expression:\n\
+    -\n-       $my_hash = {'key_one' => 'value_one'}\n-       if 'key_one' in $my_hash\
+    \ {\n-         notice('this will be printed')\n-       }\n     DOC\n \n     unless\
+    \ args.length == 2\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_key.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.273430669+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}2831eb02496ac82c790e49d4538bd983' to '{md5}572f8a648c74c0b774718991a88adc56'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_key.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.300303774+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_key.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.301417317+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/hash.rb\t\
+    2019-04-30 10:40:08.513349460 +0200\n+++ /tmp/puppet-file20190430-18468-zjfnbl\t\
+    2019-04-30 15:02:40.313402035 +0200\n@@ -10,13 +10,6 @@\n         hash(['a',1,'b',2,'c',3])\n\
+    \ \n     Would return: {'a'=>1,'b'=>2,'c'=>3}\n-\n-    Note: Since Puppet 5.0.0\
+    \ type conversions can in general be performed by using the Puppet Type System.\n\
+    -    See the function new() in Puppet for a wide range of available type conversions.\n\
+    -    This example shows the equivalent expression in the Puppet language:\n-\n\
+    -        Hash(['a',1,'b',2,'c',3])\n-        Hash([['a',1],['b',2],['c',3]])\n\
+    \     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/hash.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.318790685+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}a986ba1253550e868d61e777dbda0890' to '{md5}5730e6a297b9064c12d3484a2ae31010'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/hash.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.346834410+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.348342925+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/intersection.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.353671429+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.358437706+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.362853428+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.367151791+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_domain_name.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.371229071+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_email_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.374264139+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_float.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.377044158+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_function_available.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.379848627+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.382869125+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_integer.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.385854911+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.388686911+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.392024284+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.396377702+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_mac_address.rb\t\
+    2019-04-30 10:40:08.751347623 +0200\n+++ /tmp/puppet-file20190430-18468-10jovx2\t\
+    2019-04-30 15:02:40.407401454 +0200\n@@ -14,7 +14,6 @@\n     mac = arguments[0]\n\
+    \ \n     return true if %r{^[a-f0-9]{1,2}(:[a-f0-9]{1,2}){5}$}i =~ mac\n-    return\
+    \ true if %r{^[a-f0-9]{1,2}(:[a-f0-9]{1,2}){19}$}i =~ mac\n     return false\n\
+    \   end\n end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_mac_address.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.412949141+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}ce813427e763d0405931dc216e51bca2' to '{md5}b75e440d5594b879b70cf034fc52cd51'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_mac_address.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.437508952+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_mac_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.438498795+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.441737659+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.445065495+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join.rb\t\
+    2019-04-30 10:40:08.800347244 +0200\n+++ /tmp/puppet-file20190430-18468-1swbzpz\t\
+    2019-04-30 15:02:40.460401127 +0200\n@@ -10,9 +10,6 @@\n         join(['a','b','c'],\
+    \ \",\")\n \n     Would result in: \"a,b,c\"\n-\n-    Note: from Puppet 5.4.0,\
+    \ the compatible function with the same name in Puppet core\n-    will be used\
+    \ instead of this function.\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.465565767+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}338cfe4797a5b41d34d0dcdceb4cff2f' to '{md5}aed0b418cc216d86f3beaa5f2302279b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.490198222+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.491286616+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join_keys_to_values.rb\t\
+    2019-04-30 10:40:08.817347113 +0200\n+++ /tmp/puppet-file20190430-18468-opk1zq\t\
+    2019-04-30 15:02:40.506400843 +0200\n@@ -1,5 +1,5 @@\n #\n-# join_keys_to_values.rb\n\
+    +# join.rb\n #\n module Puppet::Parser::Functions\n   newfunction(:join_keys_to_values,\
+    \ :type => :rvalue, :doc => <<-DOC\n@@ -17,11 +17,6 @@\n         join_keys_to_values({'a'=>1,'b'=>[2,3]},\
+    \ \" is \")\n \n     Would result in: [\"a is 1\",\"b is 2\",\"b is 3\"]\n-\n\
+    -    Note: Since Puppet 5.0.0 - for more detailed control over the formatting\
+    \ (including indentations and\n-    line breaks, delimiters around arrays and\
+    \ hash entries, between key/values in hash entries, and individual\n-    formatting\
+    \ of values in the array) - see the `new` function for `String` and its formatting\n\
+    -    options for `Array` and `Hash`.\n     DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join_keys_to_values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.513332491+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}86e4211f195c4c9d92c5e3806789a561' to '{md5}5ad99136e59a68064c24dd2933727c57'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join_keys_to_values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.541057106+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join_keys_to_values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.542179708+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/keys.rb\t\
+    2019-04-30 10:40:08.835346974 +0200\n+++ /tmp/puppet-file20190430-18468-1q0esu8\t\
+    2019-04-30 15:02:40.555400540 +0200\n@@ -4,9 +4,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:keys, :type => :rvalue, :doc => <<-DOC\n     Returns the keys\
+    \ of a hash as an array.\n-\n-    Note: from Puppet 5.5.0, the compatible function\
+    \ with the same name in Puppet core\n-    will be used instead of this function.\n\
+    \     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/keys.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.560780569+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}1702d1c00a24ca4e9ba6a4f36c4ec808' to '{md5}d65816215c6c7736bcfe393e7d9d3bf4'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/keys.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.591720430+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/keys.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.592751210+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/load_module_metadata.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.596250425+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadjson.rb\t\
+    2019-04-30 10:40:08.868346719 +0200\n+++ /tmp/puppet-file20190430-18468-1tqgiel\t\
+    2019-04-30 15:02:40.610400200 +0200\n@@ -1,57 +1,31 @@\n #\n # loadjson.rb\n #\n\
+    -\n module Puppet::Parser::Functions\n   newfunction(:loadjson, :type => :rvalue,\
+    \ :arity => -2, :doc => <<-'DOC') do |args|\n     Load a JSON file containing\
+    \ an array, string, or hash, and return the data\n     in the corresponding native\
+    \ data type.\n-    The first parameter can be a file path or a URL.\n     The\
+    \ second parameter is the default value. It will be returned if the file\n   \
+    \  was not found or could not be parsed.\n \n     For example:\n \n         $myhash\
+    \ = loadjson('/etc/puppet/data/myhash.json')\n-        $myhash = loadjson('https://example.local/my_hash.json')\n\
+    -        $myhash = loadjson('https://username:password@example.local/my_hash.json')\n\
+    \         $myhash = loadjson('no-file.json', {'default' => 'value'})\n   DOC\n\
+    \ \n     raise ArgumentError, 'Wrong number of arguments. 1 or 2 arguments should\
+    \ be provided.' unless args.length >= 1\n-    require 'open-uri'\n-    begin\n\
+    -      if args[0].start_with?('http://', 'https://')\n-        username = ''\n\
+    -        password = ''\n-        if (match = args[0].match(%r{(http\\://|https\\\
+    ://)(.*):(.*)@(.*)}))\n-          # If URL is in the format of https://username:password@example.local/my_hash.yaml\n\
+    -          protocol, username, password, path = match.captures\n-          url\
+    \ = \"#{protocol}#{path}\"\n-        elsif (match = args[0].match(%r{(http\\:\\\
+    /\\/|https\\:\\/\\/)(.*)@(.*)}))\n-          # If URL is in the format of https://username@example.local/my_hash.yaml\n\
+    -          protocol, username, path = match.captures\n-          url = \"#{protocol}#{path}\"\
+    \n-        else\n-          url = args[0]\n-        end\n-        begin\n-   \
+    \       contents = OpenURI.open_uri(url, :http_basic_authentication => [username,\
+    \ password])\n-        rescue OpenURI::HTTPError => err\n-          res = err.io\n\
+    -          warning(\"Can't load '#{url}' HTTP Error Code: '#{res.status[0]}'\"\
+    )\n-          args[1]\n-        end\n-        PSON.load(contents) || args[1]\n\
+    -      elsif File.exists?(args[0]) # rubocop:disable Lint/DeprecatedClassMethods\
+    \ : Changing to .exist? breaks the code\n+\n+    if File.exists?(args[0]) # rubocop:disable\
+    \ Lint/DeprecatedClassMethods : Changing to .exist? breaks the code\n+      begin\n\
+    \         content = File.read(args[0])\n         PSON.load(content) || args[1]\n\
+    -      else\n-        warning(\"Can't load '#{args[0]}' File does not exist!\"\
+    )\n+      rescue StandardError => e\n+        raise e unless args[1]\n       \
+    \  args[1]\n       end\n-    rescue StandardError => e\n-      raise e unless\
+    \ args[1]\n+    else\n+      warning(\"Can't load '#{args[0]}' File does not exist!\"\
+    )\n       args[1]\n     end\n   end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadjson.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.616667041+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}442e1250912a44965637782998776ef6' to '{md5}b6e43c28dee4a74a7312af41393d09de'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadjson.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.643463397+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadjson.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.644708175+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadyaml.rb\t\
+    2019-04-30 10:40:08.886346580 +0200\n+++ /tmp/puppet-file20190430-18468-zhfemj\t\
+    2019-04-30 15:02:40.662399878 +0200\n@@ -5,52 +5,27 @@\n   newfunction(:loadyaml,\
+    \ :type => :rvalue, :arity => -2, :doc => <<-'DOC') do |args|\n     Load a YAML\
+    \ file containing an array, string, or hash, and return the data\n     in the\
+    \ corresponding native data type.\n-    The first parameter can be a file path\
+    \ or a URL.\n     The second parameter is the default value. It will be returned\
+    \ if the file\n     was not found or could not be parsed.\n \n     For example:\n\
+    \ \n         $myhash = loadyaml('/etc/puppet/data/myhash.yaml')\n-        $myhash\
+    \ = loadyaml('https://example.local/my_hash.yaml')\n-        $myhash = loadyaml('https://username:password@example.local/my_hash.yaml')\n\
+    \         $myhash = loadyaml('no-file.yaml', {'default' => 'value'})\n   DOC\n\
+    \ \n     raise ArgumentError, 'Wrong number of arguments. 1 or 2 arguments should\
+    \ be provided.' unless args.length >= 1\n     require 'yaml'\n-    require 'open-uri'\n\
+    -    begin\n-      if args[0].start_with?('http://', 'https://')\n-        username\
+    \ = ''\n-        password = ''\n-        if (match = args[0].match(%r{(http\\\
+    ://|https\\://)(.*):(.*)@(.*)}))\n-          # If URL is in the format of https://username:password@example.local/my_hash.yaml\n\
+    -          protocol, username, password, path = match.captures\n-          url\
+    \ = \"#{protocol}#{path}\"\n-        elsif (match = args[0].match(%r{(http\\:\\\
+    /\\/|https\\:\\/\\/)(.*)@(.*)}))\n-          # If URL is in the format of https://username@example.local/my_hash.yaml\n\
+    -          protocol, username, path = match.captures\n-          url = \"#{protocol}#{path}\"\
+    \n-        else\n-          url = args[0]\n-        end\n-        begin\n-   \
+    \       contents = OpenURI.open_uri(url, :http_basic_authentication => [username,\
+    \ password])\n-        rescue OpenURI::HTTPError => err\n-          res = err.io\n\
+    -          warning(\"Can't load '#{url}' HTTP Error Code: '#{res.status[0]}'\"\
+    )\n-          args[1]\n-        end\n-        YAML.safe_load(contents) || args[1]\n\
+    -      elsif File.exists?(args[0]) # rubocop:disable Lint/DeprecatedClassMethods\
+    \ : Changing to .exist? breaks the code\n+\n+    if File.exists?(args[0]) # rubocop:disable\
+    \ Lint/DeprecatedClassMethods : Changing to .exist? breaks the code\n+      begin\n\
+    \         YAML.load_file(args[0]) || args[1]\n-      else\n-        warning(\"\
+    Can't load '#{args[0]}' File does not exist!\")\n+      rescue StandardError =>\
+    \ e\n+        raise e unless args[1]\n         args[1]\n       end\n-    rescue\
+    \ StandardError => e\n-      raise e unless args[1]\n+    else\n+      warning(\"\
+    Can't load '#{args[0]}' File does not exist!\")\n       args[1]\n     end\n  \
+    \ end\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadyaml.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.667757138+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}8ad8f48f3649b39bdeca825a61d68e9e' to '{md5}9066804fd56894210d4d064aab9df406'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadyaml.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.692661599+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadyaml.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.693679995+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/lstrip.rb\t\
+    2019-04-30 10:40:08.904346441 +0200\n+++ /tmp/puppet-file20190430-18468-10wximt\t\
+    2019-04-30 15:02:40.705399613 +0200\n@@ -4,9 +4,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:lstrip, :type => :rvalue, :doc => <<-DOC\n     Strips leading\
+    \ spaces to the left of a string.\n-\n-    Note: from Puppet 6.0.0, the compatible\
+    \ function with the same name in Puppet core\n-    will be used instead of this\
+    \ function.\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/lstrip.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.710189033+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}078230c59baa5ebb433d1ddc2ebd808b' to '{md5}de231169f63d922b72b754521488bca5'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/lstrip.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.736622617+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/lstrip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.737830026+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/max.rb\t\
+    2019-04-30 10:40:08.923346295 +0200\n+++ /tmp/puppet-file20190430-18468-ykrcai\t\
+    2019-04-30 15:02:40.749399341 +0200\n@@ -5,9 +5,6 @@\n   newfunction(:max, :type\
+    \ => :rvalue, :doc => <<-DOC\n     Returns the highest value of all arguments.\n\
+    \     Requires at least one argument.\n-\n-    Note: from Puppet 6.0.0, the compatible\
+    \ function with the same name in Puppet core\n-    will be used instead of this\
+    \ function.\n     DOC\n              ) do |args|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/max.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.754295898+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}c9acf0c8bd3902ec613844fac4eb0201' to '{md5}3406e6e1da36ed126ca7a359dbbcbb23'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/max.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.775470055+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/max.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.776555663+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/member.rb\t\
+    2019-04-30 10:40:08.941346156 +0200\n+++ /tmp/puppet-file20190430-18468-85ykwx\t\
+    2019-04-30 15:02:40.788399100 +0200\n@@ -25,19 +25,6 @@\n         member(['a',\
+    \ 'b', 'c'], ['d', 'b'])\n \n     would return: false\n-\n-    Note: Since Puppet\
+    \ 4.0.0 the same can be performed in the Puppet language. For single values\n\
+    -    the operator `in` can be used:\n-\n-        'a' in ['a', 'b']  # true\n-\n\
+    -    And for arrays by using operator `-` to compute a diff:\n-\n-        ['d',\
+    \ 'b'] - ['a', 'b', 'c'] == []  # false because 'd' is not subtracted\n-     \
+    \   ['a', 'b'] - ['a', 'b', 'c'] == []  # true because both 'a' and 'b' are subtracted\n\
+    -\n-    Also note that since Puppet 5.2.0 the general form of testing content\
+    \ of an array or hash is to use the built-in\n-    `any` and `all` functions.\n\
+    \     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/member.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.794591794+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}ddd3572cb73353e4cfd95bcea423030b' to '{md5}4f8639d96fbd17cd194224794dd9f279'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/member.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.816274340+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/member.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.817686093+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/merge.rb\t\
+    2019-04-30 10:40:08.961346001 +0200\n+++ /tmp/puppet-file20190430-18468-1xiztmd\t\
+    2019-04-30 15:02:40.830398840 +0200\n@@ -15,9 +15,6 @@\n \n     When there is\
+    \ a duplicate key, the key in the rightmost hash will \"win.\"\n \n-    Note that\
+    \ since Puppet 4.0.0 the same merge can be achieved with the + operator.\n-\n\
+    -        $merged_hash = $hash1 + $hash2\n     DOC\n \n     if args.length < 2\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/merge.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.835551350+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}fecd4133ce85334adf93332fdc9f65f1' to '{md5}e867f9f9340d7bf5b85141d2f7ec2392'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/merge.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.857000244+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/merge.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.858062778+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/min.rb\t\
+    2019-04-30 10:40:08.978345870 +0200\n+++ /tmp/puppet-file20190430-18468-1tubg69\t\
+    2019-04-30 15:02:40.868398605 +0200\n@@ -5,9 +5,6 @@\n   newfunction(:min, :type\
+    \ => :rvalue, :doc => <<-DOC\n     Returns the lowest value of all arguments.\n\
+    \     Requires at least one argument.\n-\n-    Note: from Puppet 6.0.0, the compatible\
+    \ function with the same name in Puppet core\n-    will be used instead of this\
+    \ function.\n     DOC\n              ) do |args|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/min.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.874013457+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}9016deb88938647bd52faf8cdea6f83c' to '{md5}6243d16650b1787f017f587b5be276f3'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/min.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.896383131+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/min.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.897487759+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/num2bool.rb\t\
+    2019-04-30 10:40:08.996345731 +0200\n+++ /tmp/puppet-file20190430-18468-e2qa2x\t\
+    2019-04-30 15:02:40.909398352 +0200\n@@ -6,12 +6,6 @@\n     This function converts\
+    \ a number or a string representation of a number into a\n     true boolean. Zero\
+    \ or anything non-numeric becomes false. Numbers higher then 0\n     become true.\n\
+    -\n-    Note that since Puppet 5.0.0 the same can be achieved with the Puppet\
+    \ Type System.\n-    See the new() function in Puppet for the many available type\
+    \ conversions.\n-\n-        Boolean(0) # false\n-        Boolean(1) # true\n \
+    \    DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/num2bool.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.915021134+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}60e725ab19cffcd745a0b904a7a59d6b' to '{md5}35f42a4339b34d0b1efc6a6c3b2d3b69'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/num2bool.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.942361498+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/num2bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.943538559+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/parsejson.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.946993475+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/parseyaml.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.950456241+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick.rb\t\
+    2019-04-30 10:40:09.050345314 +0200\n+++ /tmp/puppet-file20190430-18468-19ikbsg\t\
+    2019-04-30 15:02:40.963398018 +0200\n@@ -4,9 +4,10 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:pick, :type => :rvalue, :doc => <<-DOC\n     This function is\
+    \ similar to a coalesce function in SQL in that it will return\n-    the first\
+    \ value in a list of values that is not undefined or an empty string.\n-    Typically,\
+    \ this function is used to check for a value in the Puppet\n-    Dashboard/Enterprise\
+    \ Console, and failover to a default value like the following:\n+    the first\
+    \ value in a list of values that is not undefined or an empty string\n+    (two\
+    \ things in Puppet that will return a boolean false value). Typically,\n+    this\
+    \ function is used to check for a value in the Puppet Dashboard/Enterprise\n+\
+    \    Console, and failover to a default value like the following:\n \n       $real_jenkins_version\
+    \ = pick($::jenkins_version, '1.449')\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:40.969925699+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}502384aedc46dd5987fe31c494f48e61' to '{md5}4a4ba9288a233a4bcdbdc59ecac80be0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.994592466+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:40.995936914+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick_default.rb\t\
+    2019-04-30 10:40:09.069345167 +0200\n+++ /tmp/puppet-file20190430-18468-f53xcs\t\
+    2019-04-30 15:02:41.007397746 +0200\n@@ -5,7 +5,8 @@\n   newfunction(:pick_default,\
+    \ :type => :rvalue, :doc => <<-DOC\n     This function is similar to a coalesce\
+    \ function in SQL in that it will return\n     the first value in a list of values\
+    \ that is not undefined or an empty string\n-    If no value is found, it will\
+    \ return the last argument.\n+    (two things in Puppet that will return a boolean\
+    \ false value). If no value is\n+    found, it will return the last argument.\n\
+    \ \n     Typically, this function is used to check for a value in the Puppet\n\
+    \     Dashboard/Enterprise Console, and failover to a default value like the\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick_default.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.012872708+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}acf85e30452afb8a1811a4ca8557f188' to '{md5}6b0ccac1913a85e540a3de20c6a88096'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick_default.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.035737801+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick_default.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.036877992+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/prefix.rb\t\
+    2019-04-30 10:40:09.085345044 +0200\n+++ /tmp/puppet-file20190430-18468-1mc1pfo\t\
+    2019-04-30 15:02:41.048397493 +0200\n@@ -10,11 +10,6 @@\n         prefix(['a','b','c'],\
+    \ 'p')\n \n     Will return: ['pa','pb','pc']\n-\n-    Note that since Puppet\
+    \ 4.0.0 the general way to modify values is in array is by using the map\n-  \
+    \  function in Puppet. This example does the same as the example above:\n-\n-\
+    \        ['a', 'b', 'c'].map |$x| { \"p${x}\" }\n     DOC\n              ) do\
+    \ |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/prefix.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.055027608+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}6912509e79ebdff5f9b4e7d630442157' to '{md5}3d268ec646255199ade4b01b719a59ed'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/prefix.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.076735255+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/prefix.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.077744102+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/private.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.080974394+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pry.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.084735961+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pw_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.087922321+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/range.rb\t\
+    2019-04-30 10:40:09.156344495 +0200\n+++ /tmp/puppet-file20190430-18468-1hcr3bv\t\
+    2019-04-30 15:02:41.098397184 +0200\n@@ -32,11 +32,6 @@\n         range(\"0\"\
+    , \"9\", \"2\")\n \n     Will return: [0,2,4,6,8]\n-\n-    The Puppet Language\
+    \ support Integer and Float ranges by using the type system. Those are suitable\
+    \ for\n-    iterating a given number of times. Also see the step() function in\
+    \ Puppet for skipping values.\n-\n-        Integer[0, 9].each |$x| { notice($x)\
+    \ } # notices 0, 1, 2, ... 9\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/range.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.104218305+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}38f7ebcf5a66954f9127756d32291534' to '{md5}60d786031129d4a495a67468d4b5219d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/range.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.125060393+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/range.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.126118078+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/regexpescape.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.130471937+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reject.rb\t\
+    2019-04-30 10:40:09.192344217 +0200\n+++ /tmp/puppet-file20190430-18468-14k5hoq\t\
+    2019-04-30 15:02:41.141396918 +0200\n@@ -13,11 +13,6 @@\n     Would return:\n\
+    \ \n         ['bbb','ccc']\n-\n-    Note that since Puppet 4.0.0 the same is in\
+    \ general done with the filter function. Here is the\n-    equivalence of the\
+    \ reject() function:\n-\n-        ['aaa','bbb','ccc','aaaddd'].filter |$x| { $x\
+    \ !~ /aaa/ }\n DOC\n \n     if args.size != 2\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reject.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.146190611+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}9847dac360af182c4880dece7b4bc034' to '{md5}31f5f65be6f710d6856ffce75c432271'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reject.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.169212883+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reject.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.170364228+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reverse.rb\t\
+    2019-04-30 10:40:09.209344086 +0200\n+++ /tmp/puppet-file20190430-18468-15iycv4\t\
+    2019-04-30 15:02:41.181396671 +0200\n@@ -4,8 +4,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:reverse, :type => :rvalue, :doc => <<-DOC\n     Reverses the\
+    \ order of a string or array.\n-\n-    Note that the same can be done with the\
+    \ reverse_each() function in Puppet.\n     DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reverse.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.186986041+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}2d1045255bbe50fc6d4cd97ad4a6eec3' to '{md5}3f96ffed2afe4987da5039de2d56f38b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reverse.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.210955912+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reverse.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.211881917+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/round.rb\t\
+    2019-04-30 10:40:09.226343955 +0200\n+++ /tmp/puppet-file20190430-18468-mq9qo6\t\
+    2019-04-30 15:02:41.224396405 +0200\n@@ -15,8 +15,6 @@\n \n     returns: 2\n \n\
+    -    Note: from Puppet 6.0.0, the compatible function with the same name in Puppet\
+    \ core\n-    will be used instead of this function.\n   DOC\n              ) do\
+    \ |args|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/round.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.230023351+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}aaf276b15f731cf44da7a69621cd3b96' to '{md5}287db8b83f3bc6652eb042682f8be698'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/round.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.253130884+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/round.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.254266708+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/rstrip.rb\t\
+    2019-04-30 10:40:09.244343816 +0200\n+++ /tmp/puppet-file20190430-18468-oduumf\t\
+    2019-04-30 15:02:41.265396152 +0200\n@@ -4,9 +4,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:rstrip, :type => :rvalue, :doc => <<-DOC\n     Strips leading\
+    \ spaces to the right of the string.\n-\n-    Note: from Puppet 6.0.0, the compatible\
+    \ function with the same name in Puppet core\n-    will be used instead of this\
+    \ function.\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/rstrip.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.271511468+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}1be3bf1eff074c784e980cda2c146683' to '{md5}5042d02e81ac59068d87a2b54c784cce'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/rstrip.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.292051830+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/rstrip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.293009565+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/seeded_rand.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.296266490+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_escape.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.299364893+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_join.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.302386808+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_split.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.305224237+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shuffle.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.308218405+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/size.rb\t\
+    2019-04-30 10:40:09.352342982 +0200\n+++ /tmp/puppet-file20190430-18468-1kyx7gx\t\
+    2019-04-30 15:02:41.320395812 +0200\n@@ -4,9 +4,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:size, :type => :rvalue, :doc => <<-DOC\n     Returns the number\
+    \ of elements in a string, an array or a hash\n-\n-    Note that since Puppet\
+    \ 5.4.0, the length() function in Puppet is preferred over this. For versions\n\
+    -    of Puppet < 5.4.0 use the stdlib length() function.\n   DOC\n           \
+    \   ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/size.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.326047135+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}e3a0aa89c776b592ed24c1dd27773e33' to '{md5}05cbf180420e3a3e2e5aa5be157c6951'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/size.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.350149967+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/size.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.351210295+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/sort.rb\t\
+    2019-04-30 10:40:09.372342828 +0200\n+++ /tmp/puppet-file20190430-18468-1jbv4af\t\
+    2019-04-30 15:02:41.362395552 +0200\n@@ -5,8 +5,6 @@\n module Puppet::Parser::Functions\n\
+    \   newfunction(:sort, :type => :rvalue, :doc => <<-DOC\n     Sorts strings and\
+    \ arrays lexically.\n-\n-    Note that from Puppet 6.0.0 the same function in\
+    \ Puppet will be used instead of this.\n   DOC\n              ) do |arguments|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/sort.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.367455416+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}ea24d1e27954b6ee69d30f3fce391b65' to '{md5}20fa47c2ccde4b37626e8d3995503f02'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/sort.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.388855292+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/sort.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.390329142+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/squeeze.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.394330972+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2bool.rb\t\
+    2019-04-30 10:40:09.409342542 +0200\n+++ /tmp/puppet-file20190430-18468-afsgoi\t\
+    2019-04-30 15:02:41.405395286 +0200\n@@ -6,9 +6,6 @@\n     This converts a string\
+    \ to a boolean. This attempt to convert strings that\n     contain things like:\
+    \ Y,y, 1, T,t, TRUE,true to 'true' and strings that contain things\n     like:\
+    \ 0, F,f, N,n, false, FALSE, no to 'false'.\n-\n-    Note that since Puppet 5.0.0\
+    \ the Boolean data type can convert strings to a Boolean value.\n-    See the\
+    \ function new() in Puppet for details what the Boolean data type supports.\n\
+    \   DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2bool.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.411110117+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}9fac94e3e949b2a4406ac2d22510b06e' to '{md5}b82d971cc305a19b26089cc4fd566eb0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2bool.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.436385527+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.437617381+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2saltedsha512.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.442956841+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strftime.rb\t\
+    2019-04-30 10:40:09.450342225 +0200\n+++ /tmp/puppet-file20190430-18468-4pcz3i\t\
+    2019-04-30 15:02:41.456394971 +0200\n@@ -6,9 +6,6 @@\n   newfunction(:strftime,\
+    \ :type => :rvalue, :doc => <<-DOC\n     This function returns formatted time.\n\
+    \ \n-    Note that since Puppet 4.8.0 the function with the same name in Puppet\
+    \ will be used instead of this\n-    function. It also supports the Timestamp\
+    \ and Timespan data types in the Puppet language.\n-\n     *Examples:*\n \n  \
+    \   To return the time since epoch:\n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strftime.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.462380299+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}d17fc58b649eb6b7315752b853cd7f3b' to '{md5}62b13548cc3b28b1609b7b4bd966f666'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strftime.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.489150661+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strftime.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.490375842+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strip.rb\t\
+    2019-04-30 10:40:09.468342086 +0200\n+++ /tmp/puppet-file20190430-18468-1y1wsyr\t\
+    2019-04-30 15:02:41.503394681 +0200\n@@ -11,9 +11,6 @@\n         strip(\"    aaa\
+    \   \")\n \n     Would result in: \"aaa\"\n-\n-    Note: from Puppet 6.0.0, the\
+    \ compatible function with the same name in Puppet core\n-    will be used instead\
+    \ of this function.\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strip.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.509173017+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}011469a450ae484f199c09f55f3ab809' to '{md5}ec030431f8ec17e285f18a6f60b7f269'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strip.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.533148363+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.534534865+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/suffix.rb\t\
+    2019-04-30 10:40:09.485341955 +0200\n+++ /tmp/puppet-file20190430-18468-1csfu4u\t\
+    2019-04-30 15:02:41.547394409 +0200\n@@ -11,12 +11,6 @@\n         suffix(['a','b','c'],\
+    \ 'p')\n \n     Will return: ['ap','bp','cp']\n-\n-    Note that since Puppet\
+    \ 4.0.0 the general way to modify values is in array is by using the map\n-  \
+    \  function in Puppet. This example does the same as the example above:\n-\n-\
+    \        ['a', 'b', 'c'].map |$x| { \"${x}p\" }\n-\n     DOC\n              )\
+    \ do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/suffix.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.551763072+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}1893244c6bb354a6b1093f65041c643c' to '{md5}4eff1920b75829e32fb2c2ee4aab8a24'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/suffix.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.578997830+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/suffix.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.579998526+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/swapcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.583184611+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/time.rb\t\
+    2019-04-30 10:40:09.528341623 +0200\n+++ /tmp/puppet-file20190430-18468-86jzf7\t\
+    2019-04-30 15:02:41.595394112 +0200\n@@ -10,13 +10,6 @@\n         time()\n \n\
+    \     Will return something like: 1311972653\n-\n-    Note that since Puppet 4.8.0\
+    \ the Puppet language has the data types Timestamp (a point in time) and\n-  \
+    \  Timespan (a duration). The following example is equivalent to calling time()\
+    \ without\n-    any arguments:\n-\n-        Timestamp()\n-\n     DOC\n       \
+    \       ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/time.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.600131277+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}4a0ec2a06a1361dbf3cd11a07aa57a71' to '{md5}cd31abf40b4e4e22b9de8b6b27ec1a50'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/time.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.622762742+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/time.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.623786893+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/to_bytes.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.626953028+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/try_get_value.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.629937830+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type.rb\t\
+    2019-04-30 10:40:09.581341214 +0200\n+++ /tmp/puppet-file20190430-18468-h1ipmd\t\
+    2019-04-30 15:02:41.640393834 +0200\n@@ -3,7 +3,7 @@\n #\n module Puppet::Parser::Functions\n\
+    \   newfunction(:type, :type => :rvalue, :doc => <<-DOC\n-    DEPRECATED: This\
+    \ function will cease to function on Puppet 4; please use type3x() before upgrading\
+    \ to Puppet 4 for backwards-compatibility, or migrate to the new parser's typing\
+    \ system.\n+    DEPRECATED: This function will cease to function on Puppet 4;\
+    \ please use type3x() before upgrading to puppet 4 for backwards-compatibility,\
+    \ or migrate to the new parser's typing system.\n   DOC\n              ) do |args|\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.646185912+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}3115a269dc87e6cdb586d6cf4c2b0529' to '{md5}857348edb913cdc4f25b2169994984cf'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.667894602+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.669088807+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type3x.rb\t\
+    2019-04-30 10:40:09.598341083 +0200\n+++ /tmp/puppet-file20190430-18468-f1a22w\t\
+    2019-04-30 15:02:41.680393587 +0200\n@@ -3,7 +3,7 @@\n #\n module Puppet::Parser::Functions\n\
+    \   newfunction(:type3x, :type => :rvalue, :doc => <<-DOC\n-    DEPRECATED: This\
+    \ function will be removed when Puppet 3 support is dropped; please migrate to\
+    \ the new parser's typing system.\n+    DEPRECATED: This function will be removed\
+    \ when puppet 3 support is dropped; please migrate to the new parser's typing\
+    \ system.\n \n     Returns the type when passed a value. Type can be one of:\n\
+    \ \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type3x.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.685788974+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}7a72502f0291c66b0e4ce76e33e481c7' to '{md5}22c902213365c39919625d1a33d5abff'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type3x.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.708656761+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type3x.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.709891473+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/union.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.713702085+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/unique.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.717614276+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/unix2dos.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.720902623+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/upcase.rb\t\
+    2019-04-30 10:40:09.675340488 +0200\n+++ /tmp/puppet-file20190430-18468-1393nl3\t\
+    2019-04-30 15:02:41.731393272 +0200\n@@ -13,9 +13,6 @@\n     Will return:\n \n\
+    \         ABCD\n-\n-    Note: from Puppet 6.0.0, the compatible function with\
+    \ the same name in Puppet core\n-    will be used instead of this function.\n\
+    \   DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/upcase.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.737088713+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}55ef15d383673d44a1848833a46cfd11' to '{md5}b0ed0e1ada21b9d73a00043146254335'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/upcase.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.760696433+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/upcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.761797097+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/uriescape.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.765065809+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.767888438+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.770548264+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_augeas.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.773283435+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.776223421+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_cmd.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.779203297+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_domain_name.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.781876740+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_email_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.784417860+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.786999630+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_integer.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.789567052+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.792436592+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.795102827+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.797603820+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.800269879+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_re.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.802674583+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_slength.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.806295038+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.808983327+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_x509_rsa_key_pair.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.811273815+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values.rb\t\
+    2019-04-30 10:40:10.016337855 +0200\n+++ /tmp/puppet-file20190430-18468-1fb0zdg\t\
+    2019-04-30 15:02:41.820392722 +0200\n@@ -17,9 +17,6 @@\n     This example would\
+    \ return:\n \n         [1,2,3]\n-\n-    Note: from Puppet 5.5.0, the compatible\
+    \ function with the same name in Puppet core\n-    will be used instead of this\
+    \ function.\n     DOC\n              ) do |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.825438981+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}793ec0d600822461829eda4abcd89f9c' to '{md5}94ac0ce49d09256677f6adddd40be129'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.845446630+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.846375570+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values_at.rb\t\
+    2019-04-30 10:40:10.034337716 +0200\n+++ /tmp/puppet-file20190430-18468-5slcu9\t\
+    2019-04-30 15:02:41.856392499 +0200\n@@ -25,13 +25,6 @@\n         values_at(['a','b','c','d','e'],\
+    \ [0, \"2-3\"])\n \n     Would return ['a','c','d'].\n-\n-    Note that since\
+    \ Puppet 4.0.0 it is possible to slice an array with index and count directly\
+    \ in the language.\n-    A negative value is taken to be \"from the end\" of the\
+    \ array:\n-\n-        ['a', 'b', 'c', 'd'][1, 2]   # results in ['b', 'c']\n-\
+    \        ['a', 'b', 'c', 'd'][2, -1]  # results in ['c', 'd']\n-        ['a',\
+    \ 'b', 'c', 'd'][1, -2]  # results in ['b', 'c']\n     DOC\n              ) do\
+    \ |arguments|\n \n"
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values_at.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  - content
+  time: '2019-04-30T15:02:41.861528312+02:00'
+  file:
+  line:
+- level: notice
+  message: content changed '{md5}d03bb02de4bf80ecd1846a4e6dc99ce8' to '{md5}72d780badb5f600dbd6b9ca3271ee12f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values_at.rb]/content"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.881597029+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values_at.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.882712523+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/zip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.886251063+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.889214960+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider/file_line]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.892068303+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider/file_line/ruby.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.895044605+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.897910841+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type/anchor.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.901135064+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type/file_line.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:02:41.904765250+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving locales
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:41.909621922+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/locales]/owner"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-04-30T15:02:41.944553186+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/locales/ja]/owner"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-04-30T15:02:41.947045486+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/locales/ja/puppetlabs-stdlib.po]/owner"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-04-30T15:02:41.950426317+02:00'
+  file:
+  line:
+- level: info
+  message: Loading facts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:41.993889294+02:00'
+  file:
+  line:
+- level: info
+  message: Caching catalog for octopus.home
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:44.674264945+02:00'
+  file:
+  line:
+- level: info
+  message: Applying configuration version '1556629363'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:44.806578853+02:00'
+  file:
+  line:
+- level: notice
+  message: "\n--- /etc/sudoers\t2019-04-30 10:40:12.764316637 +0200\n+++ /tmp/puppet-file20190430-18468-1g52efx\t\
+    2019-04-30 15:02:44.986373154 +0200\n@@ -32,7 +32,7 @@\n # Cmnd_Alias SOFTWARE\
+    \ = /bin/rpm, /usr/bin/up2date, /usr/bin/yum\n \n ## Services\n-# Cmnd_Alias SERVICES\
+    \ = /sbin/service, /sbin/chkconfig, /usr/bin/systemctl start, /usr/bin/systemctl\
+    \ stop, /usr/bin/systemctl reload, /usr/bin/systemctl restart, /usr/bin/systemctl\
+    \ status, /usr/bin/systemctl enable, /usr/bin/systemctl disable\n+# Cmnd_Alias\
+    \ SERVICES = /sbin/service, /sbin/chkconfig\n \n ## Updating the locate database\n\
+    \ # Cmnd_Alias LOCATE = /usr/bin/updatedb\n@@ -72,7 +72,6 @@\n Defaults    env_keep\
+    \ += \"LC_MONETARY LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE\"\n Defaults    env_keep\
+    \ += \"LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY\"\n \n-\n #\n #\
+    \ Adding HOME to env_keep may enable a user to run unrestricted\n # commands via\
+    \ sudo.\n@@ -110,5 +109,5 @@\n ## Allows members of the users group to shutdown\
+    \ this system\n # %users  localhost=/sbin/shutdown -h now\n \n-## Read drop-in\
+    \ files from /etc/sudoers.d (the # here does not mean a comment)\n+## Read drop-in\
+    \ files\n #includedir /etc/sudoers.d\n"
+  source: "/Stage[main]/Sudo/File[/etc/sudoers]/content"
+  tags:
+  - notice
+  - file
+  - class
+  - sudo
+  - content
+  time: '2019-04-30T15:02:44.993216919+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+  line: 152
+- level: info
+  message: Computing checksum on file /etc/sudoers
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:44.994665316+02:00'
+  file:
+  line:
+- level: info
+  message: Filebucketed /etc/sudoers to puppet with sum 5cb7f6f75e524ebbe6cec66712819aaf
+  source: "/Stage[main]/Sudo/File[/etc/sudoers]"
+  tags:
+  - info
+  - file
+  - class
+  - sudo
+  time: '2019-04-30T15:02:45.035385343+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+  line: 152
+- level: notice
+  message: content changed '{md5}5cb7f6f75e524ebbe6cec66712819aaf' to '{md5}4a76b70b866cee4d5bd5f354092a9d63'
+  source: "/Stage[main]/Sudo/File[/etc/sudoers]/content"
+  tags:
+  - notice
+  - file
+  - class
+  - sudo
+  time: '2019-04-30T15:02:45.050051549+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+  line: 152
+- level: info
+  message: Computing checksum on file /etc/sudoers.d/10_usertst
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:02:45.068388455+02:00'
+  file:
+  line:
+- level: info
+  message: Filebucketed /etc/sudoers.d/10_usertst to puppet with sum d41d8cd98f00b204e9800998ecf8427e
+  source: "/Stage[main]/Sudo/File[/etc/sudoers.d/10_usertst]"
+  tags:
+  - info
+  - file
+  - class
+  - sudo
+  time: '2019-04-30T15:02:45.069078479+02:00'
+  file:
+  line:
+- level: notice
+  message: removed
+  source: "/Stage[main]/Sudo/File[/etc/sudoers.d/10_usertst]/ensure"
+  tags:
+  - notice
+  - file
+  - class
+  - sudo
+  time: '2019-04-30T15:02:45.069689365+02:00'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[userprod]/File[10_userprod]/ensure"
+  tags:
+  - notice
+  - file
+  - 10_userprod
+  - sudo::conf
+  - sudo
+  - conf
+  - userprod
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.076824632+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 122
+- level: info
+  message: Scheduling refresh of Exec[sudo-syntax-check for file /etc/sudoers.d/10_userprod]
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[userprod]/File[10_userprod]"
+  tags:
+  - info
+  - file
+  - 10_userprod
+  - sudo::conf
+  - sudo
+  - conf
+  - userprod
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.077324160+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 122
+- level: notice
+  message: Triggered 'refresh' from 1 event
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[userprod]/Exec[sudo-syntax-check\
+    \ for file /etc/sudoers.d/10_userprod]"
+  tags:
+  - notice
+  - exec
+  - sudo::conf
+  - sudo
+  - conf
+  - userprod
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.086696690+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 134
+- level: notice
+  message: created
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[usercentral]/File[10_usercentral]/ensure"
+  tags:
+  - notice
+  - file
+  - 10_usercentral
+  - sudo::conf
+  - sudo
+  - conf
+  - usercentral
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.093425732+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 122
+- level: info
+  message: Scheduling refresh of Exec[sudo-syntax-check for file /etc/sudoers.d/10_usercentral]
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[usercentral]/File[10_usercentral]"
+  tags:
+  - info
+  - file
+  - 10_usercentral
+  - sudo::conf
+  - sudo
+  - conf
+  - usercentral
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.093723201+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 122
+- level: notice
+  message: Triggered 'refresh' from 1 event
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[usercentral]/Exec[sudo-syntax-check\
+    \ for file /etc/sudoers.d/10_usercentral]"
+  tags:
+  - notice
+  - exec
+  - sudo::conf
+  - sudo
+  - conf
+  - usercentral
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.101865400+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 134
+- level: notice
+  message: created
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[userredhat]/File[10_userredhat]/ensure"
+  tags:
+  - notice
+  - file
+  - 10_userredhat
+  - sudo::conf
+  - sudo
+  - conf
+  - userredhat
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.106830301+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 122
+- level: info
+  message: Scheduling refresh of Exec[sudo-syntax-check for file /etc/sudoers.d/10_userredhat]
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[userredhat]/File[10_userredhat]"
+  tags:
+  - info
+  - file
+  - 10_userredhat
+  - sudo::conf
+  - sudo
+  - conf
+  - userredhat
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.107055959+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 122
+- level: notice
+  message: Triggered 'refresh' from 1 event
+  source: "/Stage[main]/Sudo::Configs/Sudo::Conf[userredhat]/Exec[sudo-syntax-check\
+    \ for file /etc/sudoers.d/10_userredhat]"
+  tags:
+  - notice
+  - exec
+  - sudo::conf
+  - sudo
+  - conf
+  - userredhat
+  - class
+  - sudo::configs
+  - configs
+  time: '2019-04-30T15:02:45.114325974+02:00'
+  file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+  line: 134
+- level: notice
+  message: Applied catalog in 0.33 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-04-30T15:02:45.133714557+02:00'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 21
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 3
+    - - changed
+      - Changed
+      - 8
+    - - out_of_sync
+      - Out of sync
+      - 8
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - anchor
+      - Anchor
+      - 0.000140119
+    - - package
+      - Package
+      - 0.000262656
+    - - file
+      - File
+      - 0.08711822200000001
+    - - exec
+      - Exec
+      - 0.000965913
+    - - schedule
+      - Schedule
+      - 0.0006440969999999999
+    - - filebucket
+      - Filebucket
+      - 5.9559e-05
+    - - node_retrieval
+      - Node retrieval
+      - 0.2777742939979362
+    - - plugin_sync
+      - Plugin sync
+      - 4.51627642299718
+    - - fact_generation
+      - Fact generation
+      - 0.9906769230001373
+    - - convert_catalog
+      - Convert catalog
+      - 0.035334623000380816
+    - - config_retrieval
+      - Config retrieval
+      - 1.7839763119991403
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.3195707440027036
+    - - catalog_application
+      - Catalog application
+      - 0.3314945700003591
+    - - total
+      - Total
+      - 7.949443394
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 8
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 8
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 8
+resource_statuses:
+  Anchor[sudo::begin]:
+    title: sudo::begin
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 196
+    resource: Anchor[sudo::begin]
+    resource_type: Anchor
+    provider_used:
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Anchor[sudo::begin]
+    evaluation_time: 4.7001e-05
+    tags:
+    - anchor
+    - sudo::begin
+    - sudo
+    - begin
+    - class
+    time: '2019-04-30T15:02:44.811734836+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Package[sudo]:
+    title: sudo
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/package.pp"
+    line: 77
+    resource: Package[sudo]
+    resource_type: Package
+    provider_used: yum
+    containment_path:
+    - Stage[main]
+    - Sudo::Package
+    - Package[sudo]
+    evaluation_time: 0.000262656
+    tags:
+    - package
+    - sudo
+    - class
+    - sudo::package
+    time: '2019-04-30T15:02:44.985749608+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/etc/sudoers]:
+    title: "/etc/sudoers"
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 152
+    resource: File[/etc/sudoers]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - File[/etc/sudoers]
+    evaluation_time: 0.067095472
+    tags:
+    - file
+    - class
+    - sudo
+    time: '2019-04-30T15:02:44.986828498+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property: content
+      previous_value: "{md5}5cb7f6f75e524ebbe6cec66712819aaf"
+      desired_value: e21kNX00YTc2YjcwYjg2NmNlZTRkNWJkNWYzNTQwOTJhOWQ2Mw==
+      historical_value:
+      message: content changed '{md5}5cb7f6f75e524ebbe6cec66712819aaf' to '{md5}4a76b70b866cee4d5bd5f354092a9d63'
+      name: content_changed
+      status: success
+      time: '2019-04-30T15:02:44.994420321+02:00'
+      redacted:
+      corrective_change: false
+    corrective_change: false
+  File[/etc/sudoers.d]:
+    title: "/etc/sudoers.d"
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 162
+    resource: File[/etc/sudoers.d]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - File[/etc/sudoers.d]
+    evaluation_time: 0.004233108
+    tags:
+    - file
+    - class
+    - sudo
+    time: '2019-04-30T15:02:45.063010027+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/etc/sudoers.d/10_usertst]:
+    title: "/etc/sudoers.d/10_usertst"
+    file:
+    line:
+    resource: File[/etc/sudoers.d/10_usertst]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - File[/etc/sudoers.d/10_usertst]
+    evaluation_time: 0.002468832
+    tags:
+    - file
+    - class
+    - sudo
+    time: '2019-04-30T15:02:45.067533583+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property: ensure
+      previous_value: file
+      desired_value: absent
+      historical_value:
+      message: removed
+      name: file_removed
+      status: success
+      time: '2019-04-30T15:02:45.068172222+02:00'
+      redacted:
+      corrective_change: false
+    corrective_change: false
+  Anchor[sudo::end]:
+    title: sudo::end
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 198
+    resource: Anchor[sudo::end]
+    resource_type: Anchor
+    provider_used:
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Anchor[sudo::end]
+    evaluation_time: 9.3118e-05
+    tags:
+    - anchor
+    - sudo::end
+    - sudo
+    - end
+    - class
+    time: '2019-04-30T15:02:45.070664043+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[10_userprod]:
+    title: 10_userprod
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_userprod]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userprod]
+    - File[10_userprod]
+    evaluation_time: 0.004755322
+    tags:
+    - file
+    - 10_userprod
+    - sudo::conf
+    - sudo
+    - conf
+    - userprod
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.072340749+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property: ensure
+      previous_value: absent
+      desired_value: present
+      historical_value:
+      message: created
+      name: file_created
+      status: success
+      time: '2019-04-30T15:02:45.072652200+02:00'
+      redacted:
+      corrective_change: false
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_userprod]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_userprod
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_userprod]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userprod]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_userprod]
+    evaluation_time: 0.000349615
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - userprod
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.077756029+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property:
+      previous_value:
+      desired_value:
+      historical_value:
+      message: Triggered 'refresh' from 1 event
+      name: refresh
+      status: success
+      time: '2019-04-30T15:02:45.087151045+02:00'
+      redacted: false
+      corrective_change: false
+    corrective_change: false
+  File[10_userdev]:
+    title: 10_userdev
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_userdev]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userdev]
+    - File[10_userdev]
+    evaluation_time: 0.000320026
+    tags:
+    - file
+    - 10_userdev
+    - sudo::conf
+    - sudo
+    - conf
+    - userdev
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.088237186+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_userdev]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_userdev
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_userdev]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userdev]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_userdev]
+    evaluation_time: 0.000297259
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - userdev
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.088717975+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[10_usercentral]:
+    title: 10_usercentral
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_usercentral]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[usercentral]
+    - File[10_usercentral]
+    evaluation_time: 0.004340046
+    tags:
+    - file
+    - 10_usercentral
+    - sudo::conf
+    - sudo
+    - conf
+    - usercentral
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.089314078+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property: ensure
+      previous_value: absent
+      desired_value: present
+      historical_value:
+      message: created
+      name: file_created
+      status: success
+      time: '2019-04-30T15:02:45.089738961+02:00'
+      redacted:
+      corrective_change: false
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_usercentral]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_usercentral
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_usercentral]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[usercentral]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_usercentral]
+    evaluation_time: 0.00014598
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - usercentral
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.094171554+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property:
+      previous_value:
+      desired_value:
+      historical_value:
+      message: Triggered 'refresh' from 1 event
+      name: refresh
+      status: success
+      time: '2019-04-30T15:02:45.102308990+02:00'
+      redacted: false
+      corrective_change: false
+    corrective_change: false
+  File[10_userredhat]:
+    title: 10_userredhat
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_userredhat]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userredhat]
+    - File[10_userredhat]
+    evaluation_time: 0.003905416
+    tags:
+    - file
+    - 10_userredhat
+    - sudo::conf
+    - sudo
+    - conf
+    - userredhat
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.103086916+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property: ensure
+      previous_value: absent
+      desired_value: present
+      historical_value:
+      message: created
+      name: file_created
+      status: success
+      time: '2019-04-30T15:02:45.103343756+02:00'
+      redacted:
+      corrective_change: false
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_userredhat]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_userredhat
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_userredhat]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userredhat]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_userredhat]
+    evaluation_time: 0.000173059
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - userredhat
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:02:45.107394706+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: true
+    out_of_sync: true
+    skipped: false
+    change_count: 1
+    out_of_sync_count: 1
+    events:
+    - audited: false
+      property:
+      previous_value:
+      desired_value:
+      historical_value:
+      message: Triggered 'refresh' from 1 event
+      name: refresh
+      status: success
+      time: '2019-04-30T15:02:45.114709806+02:00'
+      redacted: false
+      corrective_change: false
+    corrective_change: false
+  Schedule[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 0.000189549
+    tags:
+    - schedule
+    - puppet
+    time: '2019-04-30T15:02:45.115759978+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file:
+    line:
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 3.4671e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-04-30T15:02:45.116002714+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file:
+    line:
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 0.000179087
+    tags:
+    - schedule
+    - daily
+    time: '2019-04-30T15:02:45.116094852+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file:
+    line:
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 3.3728e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-04-30T15:02:45.116328123+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file:
+    line:
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 3.5731e-05
+    tags:
+    - schedule
+    - monthly
+    time: '2019-04-30T15:02:45.116416289+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file:
+    line:
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 0.000171331
+    tags:
+    - schedule
+    - never
+    time: '2019-04-30T15:02:45.116513097+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used:
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 5.9559e-05
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-04-30T15:02:45.116818216+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: a0facb4c-243c-4de0-8c61-5d86d7c06090
+cached_catalog_status: not_used

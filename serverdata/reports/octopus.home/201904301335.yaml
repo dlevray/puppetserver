@@ -1,0 +1,328 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: octopus.home
+time: '2019-04-30T15:35:43.505014701+02:00'
+configuration_version: 1556631346
+transaction_uuid: 25079651-7585-473c-9eff-72f720dc4138
+report_format: 10
+puppet_version: 6.4.1
+status: unchanged
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: info
+  message: Using configured environment 'production'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:35:43.598403137+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving pluginfacts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:35:43.599078749+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving plugin
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:35:43.669529777+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving locales
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:35:44.444405996+02:00'
+  file:
+  line:
+- level: info
+  message: Loading facts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:35:44.510334420+02:00'
+  file:
+  line:
+- level: info
+  message: Caching catalog for octopus.home
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:35:46.493506414+02:00'
+  file:
+  line:
+- level: info
+  message: Applying configuration version '1556631346'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:35:46.533969955+02:00'
+  file:
+  line:
+- level: notice
+  message: Applied catalog in 0.02 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-04-30T15:35:46.552466736+02:00'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 7
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - schedule
+      - Schedule
+      - 0.000281071
+    - - filebucket
+      - Filebucket
+      - 5.3611e-05
+    - - node_retrieval
+      - Node retrieval
+      - 0.08864992400049232
+    - - plugin_sync
+      - Plugin sync
+      - 0.9009655690024374
+    - - fact_generation
+      - Fact generation
+      - 0.8356601310006226
+    - - convert_catalog
+      - Convert catalog
+      - 0.029801327000313904
+    - - config_retrieval
+      - Config retrieval
+      - 1.1543360270006815
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.01151768300042022
+    - - catalog_application
+      - Catalog application
+      - 0.023460090997105
+    - - total
+      - Total
+      - 3.043122195
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses:
+  Schedule[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 5.5994e-05
+    tags:
+    - schedule
+    - puppet
+    time: '2019-04-30T15:35:46.535901179+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file:
+    line:
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 4.2896e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-04-30T15:35:46.536011901+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file:
+    line:
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 4.2479e-05
+    tags:
+    - schedule
+    - daily
+    time: '2019-04-30T15:35:46.536105961+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file:
+    line:
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 4.6753e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-04-30T15:35:46.536200580+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file:
+    line:
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 4.7104e-05
+    tags:
+    - schedule
+    - monthly
+    time: '2019-04-30T15:35:46.536301221+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file:
+    line:
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 4.5845e-05
+    tags:
+    - schedule
+    - never
+    time: '2019-04-30T15:35:46.536396834+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used:
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 5.3611e-05
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-04-30T15:35:46.536505244+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: 314eb897-8947-4a3c-adac-b18b5d2eca46
+cached_catalog_status: not_used

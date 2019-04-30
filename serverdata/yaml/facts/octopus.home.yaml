@@ -1,0 +1,609 @@
+--- !ruby/object:Puppet::Node::Facts
+name: octopus.home
+values:
+  agent_specified_environment: tst
+  aio_agent_version: 6.4.1
+  architecture: x86_64
+  augeas:
+    version: 1.11.0
+  augeasversion: 1.11.0
+  bios_release_date: 03/21/2018
+  bios_vendor: Dell Inc.
+  bios_version: 1.2.3
+  blockdevice_nvme0n1_model: PC401 NVMe SK hynix 1TB
+  blockdevice_nvme0n1_size: 1024209543168
+  blockdevices: nvme0n1
+  boardmanufacturer: Dell Inc.
+  boardproductname: 0MM81M
+  boardserialnumber: "/37Q2SN2/CNCMK008580047/"
+  chassistype: Notebook
+  dhcp_servers:
+    system: 192.168.0.1
+    wlp2s0: 192.168.0.1
+  disks:
+    nvme0n1:
+      model: PC401 NVMe SK hynix 1TB
+      size: 953.87 GiB
+      size_bytes: 1024209543168
+  dmi:
+    bios:
+      release_date: 03/21/2018
+      vendor: Dell Inc.
+      version: 1.2.3
+    board:
+      manufacturer: Dell Inc.
+      product: 0MM81M
+      serial_number: "/37Q2SN2/CNCMK008580047/"
+    chassis:
+      type: Notebook
+    manufacturer: Dell Inc.
+    product:
+      name: Latitude 5590
+      serial_number: 37Q2SN2
+      uuid: 4C4C4544-0037-5110-8032-B3C04F534E32
+  domain: home
+  facterversion: 3.13.2
+  filesystems: vfat,xfs
+  fips_enabled: false
+  fqdn: octopus.home
+  gid: root
+  hardwareisa: x86_64
+  hardwaremodel: x86_64
+  hostname: octopus
+  id: root
+  identity:
+    gid: 0
+    group: root
+    privileged: true
+    uid: 0
+    user: root
+  interfaces: br-05f2196ae72b,docker0,enp0s31f6,lo,veth7922ed0,veth8ac39a9,vethba2383a,virbr0,virbr0-nic,wlp2s0,wwp0s20f0u2i12
+  ipaddress: 192.168.1.131
+  ipaddress6: fe80::4757:9426:f758:7135
+  ipaddress6_br-05f2196ae72b: fe80::42:d3ff:fecc:e1f
+  ipaddress6_lo: "::1"
+  ipaddress6_veth7922ed0: fe80::3821:13ff:fe69:d05
+  ipaddress6_veth8ac39a9: fe80::74f8:6dff:fedb:212e
+  ipaddress6_vethba2383a: fe80::2014:92ff:fe47:fc8f
+  ipaddress6_wlp2s0: fe80::4757:9426:f758:7135
+  ipaddress_br-05f2196ae72b: 172.18.0.1
+  ipaddress_docker0: 172.17.0.1
+  ipaddress_lo: 127.0.0.1
+  ipaddress_virbr0: 192.168.122.1
+  ipaddress_wlp2s0: 192.168.1.131
+  is_pe: false
+  is_virtual: false
+  kernel: Linux
+  kernelmajversion: '3.10'
+  kernelrelease: 3.10.0-957.10.1.el7.x86_64
+  kernelversion: 3.10.0
+  load_averages:
+    15m: 0.74
+    1m: 0.7
+    5m: 0.66
+  lsbdistcodename: Core
+  lsbdistdescription: CentOS Linux release 7.6.1810 (Core)
+  lsbdistid: CentOS
+  lsbdistrelease: 7.6.1810
+  lsbmajdistrelease: '7'
+  lsbminordistrelease: '6'
+  lsbrelease: ":core-4.1-amd64:core-4.1-noarch"
+  macaddress: b4:6b:fc:75:af:80
+  macaddress_br-05f2196ae72b: 02:42:d3:cc:0e:1f
+  macaddress_docker0: 02:42:ca:93:25:1c
+  macaddress_enp0s31f6: 10:65:30:46:40:d1
+  macaddress_veth7922ed0: 3a:21:13:69:0d:05
+  macaddress_veth8ac39a9: 76:f8:6d:db:21:2e
+  macaddress_vethba2383a: 22:14:92:47:fc:8f
+  macaddress_virbr0: 52:54:00:99:8b:35
+  macaddress_virbr0-nic: 52:54:00:99:8b:35
+  macaddress_wlp2s0: b4:6b:fc:75:af:80
+  macaddress_wwp0s20f0u2i12: 1e:8b:8d:b0:81:51
+  manufacturer: Dell Inc.
+  memory:
+    system:
+      available: 26.28 GiB
+      available_bytes: 28212592640
+      capacity: 15.64%
+      total: 31.15 GiB
+      total_bytes: 33442308096
+      used: 4.87 GiB
+      used_bytes: 5229715456
+  memoryfree: 26.28 GiB
+  memoryfree_mb: 26905.625
+  memorysize: 31.15 GiB
+  memorysize_mb: 31893.0703125
+  mountpoints:
+    "/":
+      available: 927.31 GiB
+      available_bytes: 995692277760
+      capacity: 2.22%
+      device: "/dev/mapper/centos_octopus-root"
+      filesystem: xfs
+      options:
+      - rw
+      - seclabel
+      - relatime
+      - attr2
+      - inode64
+      - noquota
+      size: 948.40 GiB
+      size_bytes: 1018340904960
+      used: 21.09 GiB
+      used_bytes: 22648627200
+    "/boot":
+      available: 2.72 GiB
+      available_bytes: 2919370752
+      capacity: 9.07%
+      device: "/dev/nvme0n1p2"
+      filesystem: xfs
+      options:
+      - rw
+      - seclabel
+      - relatime
+      - attr2
+      - inode64
+      - noquota
+      size: 2.99 GiB
+      size_bytes: 3210739712
+      used: 277.87 MiB
+      used_bytes: 291368960
+    "/boot/efi":
+      available: 1010.74 MiB
+      available_bytes: 1059840000
+      capacity: 1.10%
+      device: "/dev/nvme0n1p1"
+      filesystem: vfat
+      options:
+      - rw
+      - relatime
+      - fmask=0077
+      - dmask=0077
+      - codepage=437
+      - iocharset=ascii
+      - shortname=winnt
+      - errors=remount-ro
+      size: 1021.99 MiB
+      size_bytes: 1071632384
+      used: 11.25 MiB
+      used_bytes: 11792384
+    "/dev/shm":
+      available: 15.55 GiB
+      available_bytes: 16700059648
+      capacity: 0.13%
+      device: tmpfs
+      filesystem: tmpfs
+      options:
+      - rw
+      - seclabel
+      - nosuid
+      - nodev
+      size: 15.57 GiB
+      size_bytes: 16721154048
+      used: 20.12 MiB
+      used_bytes: 21094400
+    "/run":
+      available: 15.43 GiB
+      available_bytes: 16567754752
+      capacity: 0.92%
+      device: tmpfs
+      filesystem: tmpfs
+      options:
+      - rw
+      - seclabel
+      - nosuid
+      - nodev
+      - mode=755
+      size: 15.57 GiB
+      size_bytes: 16721154048
+      used: 146.29 MiB
+      used_bytes: 153399296
+    "/run/user/1000":
+      available: 3.11 GiB
+      available_bytes: 3344179200
+      capacity: 0.00%
+      device: tmpfs
+      filesystem: tmpfs
+      options:
+      - rw
+      - seclabel
+      - nosuid
+      - nodev
+      - relatime
+      - size=3265852k
+      - mode=700
+      - uid=1000
+      - gid=1000
+      size: 3.11 GiB
+      size_bytes: 3344232448
+      used: 52.00 KiB
+      used_bytes: 53248
+    "/sys/fs/cgroup":
+      available: 15.57 GiB
+      available_bytes: 16721154048
+      capacity: 0%
+      device: tmpfs
+      filesystem: tmpfs
+      options:
+      - ro
+      - seclabel
+      - nosuid
+      - nodev
+      - noexec
+      - mode=755
+      size: 15.57 GiB
+      size_bytes: 16721154048
+      used: 0 bytes
+      used_bytes: 0
+    "/var/lib/docker/containers/057bb1fb1c39c01ef5aecddf79084b73a5b094a32f81f96daeb420706bb2268d/mounts/shm":
+      available: 64.00 MiB
+      available_bytes: 67108864
+      capacity: 0%
+      device: shm
+      filesystem: tmpfs
+      options:
+      - rw
+      - seclabel
+      - nosuid
+      - nodev
+      - noexec
+      - relatime
+      - size=65536k
+      size: 64.00 MiB
+      size_bytes: 67108864
+      used: 0 bytes
+      used_bytes: 0
+    "/var/lib/docker/containers/115e1b9e8893f8612a7d8a32ae1a3aac7e4d08f2cb06ebee9dc7ae39d9492dc1/mounts/shm":
+      available: 64.00 MiB
+      available_bytes: 67104768
+      capacity: 0.01%
+      device: shm
+      filesystem: tmpfs
+      options:
+      - rw
+      - seclabel
+      - nosuid
+      - nodev
+      - noexec
+      - relatime
+      - size=65536k
+      size: 64.00 MiB
+      size_bytes: 67108864
+      used: 4.00 KiB
+      used_bytes: 4096
+    "/var/lib/docker/containers/3f2dee498b0c355dfa79d991bd67d071ff9b7d711aeefe84efaa5bb332346d86/mounts/shm":
+      available: 64.00 MiB
+      available_bytes: 67108864
+      capacity: 0%
+      device: shm
+      filesystem: tmpfs
+      options:
+      - rw
+      - seclabel
+      - nosuid
+      - nodev
+      - noexec
+      - relatime
+      - size=65536k
+      size: 64.00 MiB
+      size_bytes: 67108864
+      used: 0 bytes
+      used_bytes: 0
+  mtu_br-05f2196ae72b: 1500
+  mtu_docker0: 1500
+  mtu_enp0s31f6: 1500
+  mtu_lo: 65536
+  mtu_veth7922ed0: 1500
+  mtu_veth8ac39a9: 1500
+  mtu_vethba2383a: 1500
+  mtu_virbr0: 1500
+  mtu_virbr0-nic: 1500
+  mtu_wlp2s0: 1500
+  mtu_wwp0s20f0u2i12: 1500
+  netmask: 255.255.255.0
+  netmask6: 'ffff:ffff:ffff:ffff::'
+  netmask6_br-05f2196ae72b: 'ffff:ffff:ffff:ffff::'
+  netmask6_lo: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+  netmask6_veth7922ed0: 'ffff:ffff:ffff:ffff::'
+  netmask6_veth8ac39a9: 'ffff:ffff:ffff:ffff::'
+  netmask6_vethba2383a: 'ffff:ffff:ffff:ffff::'
+  netmask6_wlp2s0: 'ffff:ffff:ffff:ffff::'
+  netmask_br-05f2196ae72b: 255.255.0.0
+  netmask_docker0: 255.255.0.0
+  netmask_lo: 255.0.0.0
+  netmask_virbr0: 255.255.255.0
+  netmask_wlp2s0: 255.255.255.0
+  network: 192.168.1.0
+  network6: 'fe80::'
+  network6_br-05f2196ae72b: 'fe80::'
+  network6_lo: "::1"
+  network6_veth7922ed0: 'fe80::'
+  network6_veth8ac39a9: 'fe80::'
+  network6_vethba2383a: 'fe80::'
+  network6_wlp2s0: 'fe80::'
+  network_br-05f2196ae72b: 172.18.0.0
+  network_docker0: 172.17.0.0
+  network_lo: 127.0.0.0
+  network_virbr0: 192.168.122.0
+  network_wlp2s0: 192.168.1.0
+  networking:
+    dhcp: 192.168.0.1
+    domain: home
+    fqdn: octopus.home
+    hostname: octopus
+    interfaces:
+      br-05f2196ae72b:
+        bindings:
+        - address: 172.18.0.1
+          netmask: 255.255.0.0
+          network: 172.18.0.0
+        bindings6:
+        - address: fe80::42:d3ff:fecc:e1f
+          netmask: 'ffff:ffff:ffff:ffff::'
+          network: 'fe80::'
+        ip: 172.18.0.1
+        ip6: fe80::42:d3ff:fecc:e1f
+        mac: 02:42:d3:cc:0e:1f
+        mtu: 1500
+        netmask: 255.255.0.0
+        netmask6: 'ffff:ffff:ffff:ffff::'
+        network: 172.18.0.0
+        network6: 'fe80::'
+      docker0:
+        bindings:
+        - address: 172.17.0.1
+          netmask: 255.255.0.0
+          network: 172.17.0.0
+        ip: 172.17.0.1
+        mac: 02:42:ca:93:25:1c
+        mtu: 1500
+        netmask: 255.255.0.0
+        network: 172.17.0.0
+      enp0s31f6:
+        mac: 10:65:30:46:40:d1
+        mtu: 1500
+      lo:
+        bindings:
+        - address: 127.0.0.1
+          netmask: 255.0.0.0
+          network: 127.0.0.0
+        bindings6:
+        - address: "::1"
+          netmask: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+          network: "::1"
+        ip: 127.0.0.1
+        ip6: "::1"
+        mtu: 65536
+        netmask: 255.0.0.0
+        netmask6: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+        network: 127.0.0.0
+        network6: "::1"
+      veth7922ed0:
+        bindings6:
+        - address: fe80::3821:13ff:fe69:d05
+          netmask: 'ffff:ffff:ffff:ffff::'
+          network: 'fe80::'
+        ip6: fe80::3821:13ff:fe69:d05
+        mac: 3a:21:13:69:0d:05
+        mtu: 1500
+        netmask6: 'ffff:ffff:ffff:ffff::'
+        network6: 'fe80::'
+      veth8ac39a9:
+        bindings6:
+        - address: fe80::74f8:6dff:fedb:212e
+          netmask: 'ffff:ffff:ffff:ffff::'
+          network: 'fe80::'
+        ip6: fe80::74f8:6dff:fedb:212e
+        mac: 76:f8:6d:db:21:2e
+        mtu: 1500
+        netmask6: 'ffff:ffff:ffff:ffff::'
+        network6: 'fe80::'
+      vethba2383a:
+        bindings6:
+        - address: fe80::2014:92ff:fe47:fc8f
+          netmask: 'ffff:ffff:ffff:ffff::'
+          network: 'fe80::'
+        ip6: fe80::2014:92ff:fe47:fc8f
+        mac: 22:14:92:47:fc:8f
+        mtu: 1500
+        netmask6: 'ffff:ffff:ffff:ffff::'
+        network6: 'fe80::'
+      virbr0:
+        bindings:
+        - address: 192.168.122.1
+          netmask: 255.255.255.0
+          network: 192.168.122.0
+        ip: 192.168.122.1
+        mac: 52:54:00:99:8b:35
+        mtu: 1500
+        netmask: 255.255.255.0
+        network: 192.168.122.0
+      virbr0-nic:
+        mac: 52:54:00:99:8b:35
+        mtu: 1500
+      wlp2s0:
+        bindings:
+        - address: 192.168.1.131
+          netmask: 255.255.255.0
+          network: 192.168.1.0
+        bindings6:
+        - address: fe80::4757:9426:f758:7135
+          netmask: 'ffff:ffff:ffff:ffff::'
+          network: 'fe80::'
+        dhcp: 192.168.0.1
+        ip: 192.168.1.131
+        ip6: fe80::4757:9426:f758:7135
+        mac: b4:6b:fc:75:af:80
+        mtu: 1500
+        netmask: 255.255.255.0
+        netmask6: 'ffff:ffff:ffff:ffff::'
+        network: 192.168.1.0
+        network6: 'fe80::'
+      wwp0s20f0u2i12:
+        mac: 1e:8b:8d:b0:81:51
+        mtu: 1500
+    ip: 192.168.1.131
+    ip6: fe80::4757:9426:f758:7135
+    mac: b4:6b:fc:75:af:80
+    mtu: 1500
+    netmask: 255.255.255.0
+    netmask6: 'ffff:ffff:ffff:ffff::'
+    network: 192.168.1.0
+    network6: 'fe80::'
+    primary: wlp2s0
+  operatingsystem: CentOS
+  operatingsystemmajrelease: '7'
+  operatingsystemrelease: 7.6.1810
+  os:
+    architecture: x86_64
+    distro:
+      codename: Core
+      description: CentOS Linux release 7.6.1810 (Core)
+      id: CentOS
+      release:
+        full: 7.6.1810
+        major: '7'
+        minor: '6'
+      specification: ":core-4.1-amd64:core-4.1-noarch"
+    family: RedHat
+    hardware: x86_64
+    name: CentOS
+    release:
+      full: 7.6.1810
+      major: '7'
+      minor: '6'
+    selinux:
+      config_mode: permissive
+      current_mode: permissive
+      enabled: true
+      enforced: false
+      policy_version: '31'
+  osfamily: RedHat
+  package_provider: yum
+  partitions:
+    "/dev/mapper/centos_octopus-root":
+      filesystem: xfs
+      mount: "/"
+      size: 948.87 GiB
+      size_bytes: 1018838384640
+      uuid: d1b78e30-4a6d-460b-9a9a-14cfa76c264a
+    "/dev/mapper/centos_octopus-swap":
+      filesystem: swap
+      size: 1.00 GiB
+      size_bytes: 1073741824
+      uuid: 69e04bf2-23be-44e7-b1a5-9f16881e4ca0
+    "/dev/nvme0n1p1":
+      filesystem: vfat
+      mount: "/boot/efi"
+      partlabel: EFI System Partition
+      partuuid: df593068-cb32-4f3c-83f6-b2dd75629368
+      size: 1.00 GiB
+      size_bytes: 1073741824
+      uuid: 7BDB-885F
+    "/dev/nvme0n1p2":
+      filesystem: xfs
+      mount: "/boot"
+      partuuid: 1ed64eb9-0148-41d8-9725-3f4be3f4093d
+      size: 3.00 GiB
+      size_bytes: 3221225472
+      uuid: 1ab9562e-2fed-4981-86cc-349cf3c940a1
+    "/dev/nvme0n1p3":
+      filesystem: LVM2_member
+      partuuid: 9f8cea78-be53-4ce8-badc-8bb4dedddf5e
+      size: 949.87 GiB
+      size_bytes: 1019913175040
+      uuid: j8xRpY-RyP2-R1ng-Teej-bFYJ-LZ8E-Toxh27
+  path: "/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/puppetlabs/bin:/root/bin"
+  physicalprocessorcount: 1
+  processor0: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processor1: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processor2: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processor3: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processor4: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processor5: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processor6: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processor7: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  processorcount: 8
+  processors:
+    count: 8
+    isa: x86_64
+    models:
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    - Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+    physicalcount: 1
+    speed: 4.20 GHz
+  productname: Latitude 5590
+  puppet_environmentpath: "/etc/puppetlabs/code/environments"
+  puppet_server: puppet
+  puppet_vardir: "/opt/puppetlabs/puppet/cache"
+  puppetversion: 6.4.1
+  root_home: "/root"
+  ruby:
+    platform: x86_64-linux
+    sitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0"
+    version: 2.5.3
+  rubyplatform: x86_64-linux
+  rubysitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0"
+  rubyversion: 2.5.3
+  selinux: true
+  selinux_config_mode: permissive
+  selinux_current_mode: permissive
+  selinux_enforced: false
+  selinux_policyversion: '31'
+  serialnumber: 37Q2SN2
+  service_provider: systemd
+  ssh:
+    ecdsa:
+      fingerprints:
+        sha1: SSHFP 3 1 712b18a58d2be1b970e1dff9048f827cb8f98fd5
+        sha256: SSHFP 3 2 6c1cf7eda546114182203341eaecca8eaac094ec8c9401f074a4c82fa4dd55e4
+      key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGJelZIU2ncriQwBDO7T/vRxCFfxb0/lrG9dt24SgdXwohUiy1wMRdJBe8qgb7OAcQKzx0N4C0GqaAzcACFQDTc=
+      type: ecdsa-sha2-nistp256
+    ed25519:
+      fingerprints:
+        sha1: SSHFP 4 1 9461a9d75fa5fed9144008ef876f533481e98b55
+        sha256: SSHFP 4 2 8bfdb09a108124d69b1de67cd8795ad9b328a1b94971b6ca27611ff414af4631
+      key: AAAAC3NzaC1lZDI1NTE5AAAAIHkDquE2qkceMQ81pZUgaKCF3RkQkaopiJqiglvXa/Bm
+      type: ssh-ed25519
+    rsa:
+      fingerprints:
+        sha1: SSHFP 1 1 11299486b71ce3280cbb966ab2b8914e62275cda
+        sha256: SSHFP 1 2 df037a60c729647dd84a0569f34d4485c48afd3679490a0f8d16a23f770a40c9
+      key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDUD9RcjQqp89QPS+Eq2k9ktihf1RLz7tTQKvUFtA4SDXLJCsjArbrY6tJlQKH0TmrUZRnJiPhe8JqEGSN0Igb3cnHm67GSWCikinGcix12S9y72FdLlF2Fckn+lU92Dvn7LL4Nal9jcE8ULy2nSzBxBcWIAsrg14CRHLXmzopNn9SCjPfi0Fxpi7amYa5WlIltdEtQtNKbyqStscRbgsdUjHaFKbBxRcFub3zFTI4Lg0joF1crrGwI0K8K5eXOIyOgYwpm0SFwj8k4P5MQLmPOrVe1RuG6hP384c2kKyLawGMrO8rAxxVvhb+jRgdsTedVAtownt/7s+BHIo0BEhED
+      type: ssh-rsa
+  sshecdsakey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGJelZIU2ncriQwBDO7T/vRxCFfxb0/lrG9dt24SgdXwohUiy1wMRdJBe8qgb7OAcQKzx0N4C0GqaAzcACFQDTc=
+  sshed25519key: AAAAC3NzaC1lZDI1NTE5AAAAIHkDquE2qkceMQ81pZUgaKCF3RkQkaopiJqiglvXa/Bm
+  sshfp_ecdsa: |-
+    SSHFP 3 1 712b18a58d2be1b970e1dff9048f827cb8f98fd5
+    SSHFP 3 2 6c1cf7eda546114182203341eaecca8eaac094ec8c9401f074a4c82fa4dd55e4
+  sshfp_ed25519: |-
+    SSHFP 4 1 9461a9d75fa5fed9144008ef876f533481e98b55
+    SSHFP 4 2 8bfdb09a108124d69b1de67cd8795ad9b328a1b94971b6ca27611ff414af4631
+  sshfp_rsa: |-
+    SSHFP 1 1 11299486b71ce3280cbb966ab2b8914e62275cda
+    SSHFP 1 2 df037a60c729647dd84a0569f34d4485c48afd3679490a0f8d16a23f770a40c9
+  sshrsakey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDUD9RcjQqp89QPS+Eq2k9ktihf1RLz7tTQKvUFtA4SDXLJCsjArbrY6tJlQKH0TmrUZRnJiPhe8JqEGSN0Igb3cnHm67GSWCikinGcix12S9y72FdLlF2Fckn+lU92Dvn7LL4Nal9jcE8ULy2nSzBxBcWIAsrg14CRHLXmzopNn9SCjPfi0Fxpi7amYa5WlIltdEtQtNKbyqStscRbgsdUjHaFKbBxRcFub3zFTI4Lg0joF1crrGwI0K8K5eXOIyOgYwpm0SFwj8k4P5MQLmPOrVe1RuG6hP384c2kKyLawGMrO8rAxxVvhb+jRgdsTedVAtownt/7s+BHIo0BEhED
+  sudoversion: 1.8.23
+  system_uptime:
+    days: 0
+    hours: 17
+    seconds: 63326
+    uptime: 17:35 hours
+  timezone: CEST
+  uptime: 17:35 hours
+  uptime_days: 0
+  uptime_hours: 17
+  uptime_seconds: 63326
+  uuid: 4C4C4544-0037-5110-8032-B3C04F534E32
+  virtual: physical
+  clientcert: octopus.home
+  clientversion: 6.4.1
+  clientnoop: false
+timestamp: '2019-04-30T15:36:06.625411499+02:00'
+expiration: '2019-04-30T16:06:06.626567410+02:00'

@@ -1,0 +1,8 @@
+---
+classes:
+ - sudo
+ - motd
+
+sudo::configs:
+   'usertst':
+        'ensure'    : 'absent'

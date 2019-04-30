@@ -1,0 +1,2665 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: octopus.home
+time: '2019-04-30T15:03:56.037448641+02:00'
+configuration_version: 1556629438
+transaction_uuid: 83a4aff6-e4b8-4903-8347-f8c8c2e6a0c2
+report_format: 10
+puppet_version: 6.4.1
+status: unchanged
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: info
+  message: Using configured environment 'production'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:03:56.368687919+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving pluginfacts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:03:56.369605497+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/facts.d]/owner"
+  tags:
+  - notice
+  - file
+  - pluginfacts
+  time: '2019-04-30T15:03:56.485509524+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving plugin
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:03:56.487117460+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.167111158+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.169237693+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/facter_dot_d.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.171372139+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/package_provider.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.173440074+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/pe_version.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.175867176+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/puppet_settings.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.178353615+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/root_home.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.181389233+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/service_provider.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.183816586+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/sudoversion.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.186036389+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/util]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.188165788+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/util/puppet_settings.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.190298262+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.192282969+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.194226583+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/deprecation.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.196851663+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/fact.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.199366473+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_a.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.202926376+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.205026557+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.207085932+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.209127726+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_float.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.211724500+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.214396470+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.216909713+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.219400161+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.222145976+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.224420324+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/length.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.226597774+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/sprintf_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.228774278+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_json.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.231127177+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_json_pretty.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.233371178+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_yaml.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.235548675+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/type_of.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.237811974+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.240033196+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.243164997+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.245523263+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.247699939+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_integer.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.249845019+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.251971584+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.254163450+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.256320026+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_legacy.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.258791061+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.261399341+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_re.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.263835920+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_slength.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.265898144+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.267959700+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.270024270+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.272028549+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/abs.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.275737454+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.278163800+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.280602205+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/assert_private.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.283469041+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/base64.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.285666612+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/basename.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.287780937+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2num.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.289985249+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2str.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.292597360+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/camelcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.294845726+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/capitalize.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.296887343+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ceiling.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.298883144+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chomp.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.301053791+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chop.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.303449498+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/clamp.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.305982099+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/concat.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.308306665+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/convert_base.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.310539465+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/count.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.312751595+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/deep_merge.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.314921876+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/defined_with_params.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.317154450+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.319745865+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_at.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.323007775+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_regex.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.325239136+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_undef_values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.327412681+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.329532628+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/deprecation.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.331634675+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/difference.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.334248708+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.336723280+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig44.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.338987882+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dirname.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.341218867+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dos2unix.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.343799363+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/downcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.346134565+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/empty.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.348332753+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/enclose_ipv6.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.350505217+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_packages.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.352638855+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_resource.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.354652370+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_resources.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.356865352+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/flatten.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.359179017+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/floor.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.362231447+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_rand_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.364785555+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_rotate.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.367192939+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_uuid.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.369395927+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/get_module_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.371513598+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getparam.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.373579429+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getvar.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.375623606+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/glob.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.377637003+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/grep.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.379644694+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_interface_with.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.381852580+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.384303997+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_ip_network.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.386749722+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_key.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.388970548+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.391137049+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/intersection.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.393334979+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.395734178+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.398948626+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.401229812+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_domain_name.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.403423707+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_email_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.405877490+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_float.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.408305788+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_function_available.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.410529638+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.412678859+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_integer.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.414783318+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.416886020+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.419012263+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.421193231+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_mac_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.423437327+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.425754585+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.428186357+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.430658640+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join_keys_to_values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.432946921+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/keys.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.435811658+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/load_module_metadata.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.437977340+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadjson.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.440083244+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadyaml.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.442145775+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/lstrip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.444348931+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/max.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.446687398+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/member.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.448961221+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/merge.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.451119685+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/min.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.453202202+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/num2bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.455308751+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/parsejson.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.457534098+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/parseyaml.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.459859720+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.462125022+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick_default.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.464202148+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/prefix.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.466541857+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/private.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.469175126+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pry.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.472189733+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pw_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.474372527+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/range.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.476474709+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/regexpescape.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.478564620+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reject.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.480623843+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reverse.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.482654412+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/round.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.484761922+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/rstrip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.487109193+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/seeded_rand.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.489469000+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_escape.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.491663905+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_join.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.493822914+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_split.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.495996581+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shuffle.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.498158614+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/size.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.500621554+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/sort.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.502989958+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/squeeze.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.505292013+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.508482500+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2saltedsha512.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.510926124+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strftime.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.513167595+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.515384173+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/suffix.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.517735316+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/swapcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.520083962+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/time.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.522287897+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/to_bytes.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.524432722+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/try_get_value.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.526516617+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.528798585+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type3x.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.531264939+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/union.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.533518037+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/unique.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.535710964+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/unix2dos.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.537844897+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/upcase.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.539909787+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/uriescape.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.542033037+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_absolute_path.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.544956480+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_array.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.547135523+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_augeas.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.549425473+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_bool.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.551610394+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_cmd.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.553715983+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_domain_name.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.555824255+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_email_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.557922337+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_hash.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.559893915+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_integer.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.561889238+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ip_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.564222487+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ipv4_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.566499841+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ipv6_address.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.568714990+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_numeric.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.570911972+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_re.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.573015594+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_slength.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.575145927+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_string.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.577332426+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_x509_rsa_key_pair.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.580599252+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.582956859+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values_at.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.585225403+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/zip.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.587621468+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.590033366+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider/file_line]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.592721280+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider/file_line/ruby.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.595320684+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.598253424+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type/anchor.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.602038036+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type/file_line.rb]/owner"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-04-30T15:03:57.605967783+02:00'
+  file:
+  line:
+- level: info
+  message: Retrieving locales
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:03:57.611326262+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/locales]/owner"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-04-30T15:03:57.658101692+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/locales/ja]/owner"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-04-30T15:03:57.664908337+02:00'
+  file:
+  line:
+- level: notice
+  message: owner changed 'phobs' to 'root'
+  source: "/File[/opt/puppetlabs/puppet/cache/locales/ja/puppetlabs-stdlib.po]/owner"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-04-30T15:03:57.667335636+02:00'
+  file:
+  line:
+- level: info
+  message: Loading facts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:03:57.707507344+02:00'
+  file:
+  line:
+- level: info
+  message: Caching catalog for octopus.home
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:04:00.278798651+02:00'
+  file:
+  line:
+- level: info
+  message: Applying configuration version '1556629438'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-04-30T15:04:00.422599457+02:00'
+  file:
+  line:
+- level: notice
+  message: Applied catalog in 0.24 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-04-30T15:04:00.657776535+02:00'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 20
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - anchor
+      - Anchor
+      - 0.00068748
+    - - package
+      - Package
+      - 0.000239521
+    - - file
+      - File
+      - 0.016631119999999996
+    - - exec
+      - Exec
+      - 0.000452498
+    - - schedule
+      - Schedule
+      - 0.000234167
+    - - filebucket
+      - Filebucket
+      - 4.2565e-05
+    - - node_retrieval
+      - Node retrieval
+      - 0.3263385249993007
+    - - plugin_sync
+      - Plugin sync
+      - 1.3259114489992498
+    - - fact_generation
+      - Fact generation
+      - 0.8982711140015454
+    - - convert_catalog
+      - Convert catalog
+      - 0.04072814000028302
+    - - config_retrieval
+      - Config retrieval
+      - 1.771671670001524
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.22914557499825605
+    - - catalog_application
+      - Catalog application
+      - 0.2409492449987738
+    - - total
+      - Total
+      - 4.61576851
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses:
+  Anchor[sudo::begin]:
+    title: sudo::begin
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 196
+    resource: Anchor[sudo::begin]
+    resource_type: Anchor
+    provider_used:
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Anchor[sudo::begin]
+    evaluation_time: 4.7092e-05
+    tags:
+    - anchor
+    - sudo::begin
+    - sudo
+    - begin
+    - class
+    time: '2019-04-30T15:04:00.428417610+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Package[sudo]:
+    title: sudo
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/package.pp"
+    line: 77
+    resource: Package[sudo]
+    resource_type: Package
+    provider_used: yum
+    containment_path:
+    - Stage[main]
+    - Sudo::Package
+    - Package[sudo]
+    evaluation_time: 0.000239521
+    tags:
+    - package
+    - sudo
+    - class
+    - sudo::package
+    time: '2019-04-30T15:04:00.606732721+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/etc/sudoers]:
+    title: "/etc/sudoers"
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 152
+    resource: File[/etc/sudoers]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - File[/etc/sudoers]
+    evaluation_time: 0.001916551
+    tags:
+    - file
+    - class
+    - sudo
+    time: '2019-04-30T15:04:00.607241257+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/etc/sudoers.d]:
+    title: "/etc/sudoers.d"
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 162
+    resource: File[/etc/sudoers.d]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - File[/etc/sudoers.d]
+    evaluation_time: 0.004840133
+    tags:
+    - file
+    - class
+    - sudo
+    time: '2019-04-30T15:04:00.624219492+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Anchor[sudo::end]:
+    title: sudo::end
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/init.pp"
+    line: 198
+    resource: Anchor[sudo::end]
+    resource_type: Anchor
+    provider_used:
+    containment_path:
+    - Stage[main]
+    - Sudo
+    - Anchor[sudo::end]
+    evaluation_time: 0.000640388
+    tags:
+    - anchor
+    - sudo::end
+    - sudo
+    - end
+    - class
+    time: '2019-04-30T15:04:00.629188364+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[10_userprod]:
+    title: 10_userprod
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_userprod]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userprod]
+    - File[10_userprod]
+    evaluation_time: 0.004955312
+    tags:
+    - file
+    - 10_userprod
+    - sudo::conf
+    - sudo
+    - conf
+    - userprod
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.631251916+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_userprod]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_userprod
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_userprod]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userprod]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_userprod]
+    evaluation_time: 0.000193425
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - userprod
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.636352219+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[10_userdev]:
+    title: 10_userdev
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_userdev]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userdev]
+    - File[10_userdev]
+    evaluation_time: 0.000538958
+    tags:
+    - file
+    - 10_userdev
+    - sudo::conf
+    - sudo
+    - conf
+    - userdev
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.636775014+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_userdev]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_userdev
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_userdev]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userdev]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_userdev]
+    evaluation_time: 8.6271e-05
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - userdev
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.637409202+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[10_usercentral]:
+    title: 10_usercentral
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_usercentral]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[usercentral]
+    - File[10_usercentral]
+    evaluation_time: 0.002697354
+    tags:
+    - file
+    - 10_usercentral
+    - sudo::conf
+    - sudo
+    - conf
+    - usercentral
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.637709747+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_usercentral]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_usercentral
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_usercentral]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[usercentral]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_usercentral]
+    evaluation_time: 8.848e-05
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - usercentral
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.640522161+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[10_userredhat]:
+    title: 10_userredhat
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 122
+    resource: File[10_userredhat]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userredhat]
+    - File[10_userredhat]
+    evaluation_time: 0.001682812
+    tags:
+    - file
+    - 10_userredhat
+    - sudo::conf
+    - sudo
+    - conf
+    - userredhat
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.640860778+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Exec[sudo-syntax-check for file /etc/sudoers.d/10_userredhat]:
+    title: sudo-syntax-check for file /etc/sudoers.d/10_userredhat
+    file: "/etc/puppetlabs/code/modules/sudo/manifests/conf.pp"
+    line: 134
+    resource: Exec[sudo-syntax-check for file /etc/sudoers.d/10_userredhat]
+    resource_type: Exec
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Sudo::Configs
+    - Sudo::Conf[userredhat]
+    - Exec[sudo-syntax-check for file /etc/sudoers.d/10_userredhat]
+    evaluation_time: 8.4322e-05
+    tags:
+    - exec
+    - sudo::conf
+    - sudo
+    - conf
+    - userredhat
+    - class
+    - sudo::configs
+    - configs
+    time: '2019-04-30T15:04:00.642652920+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 4.5517e-05
+    tags:
+    - schedule
+    - puppet
+    time: '2019-04-30T15:04:00.643177126+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file:
+    line:
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 3.3903e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-04-30T15:04:00.643271963+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file:
+    line:
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 5.1831e-05
+    tags:
+    - schedule
+    - daily
+    time: '2019-04-30T15:04:00.643353607+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file:
+    line:
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 3.3912e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-04-30T15:04:00.643450638+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file:
+    line:
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 3.4347e-05
+    tags:
+    - schedule
+    - monthly
+    time: '2019-04-30T15:04:00.643531244+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file:
+    line:
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 3.4657e-05
+    tags:
+    - schedule
+    - never
+    time: '2019-04-30T15:04:00.643631834+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used:
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 4.2565e-05
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-04-30T15:04:00.643721571+02:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: 3dba0db3-1bab-4c77-b190-851f040b365e
+cached_catalog_status: not_used
